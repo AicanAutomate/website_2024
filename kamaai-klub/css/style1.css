@@ -4,7 +4,7 @@
   font-family: "Helvetica Neue-Bold", Helvetica;
   font-weight: 700;
   color: #ffffff ;
-  font-size: 16px;
+  font-size: 15px;
   letter-spacing: 0;
   line-height: normal;
 }
@@ -42,7 +42,7 @@
   font-family: "Helvetica Neue-Bold", Helvetica;
   font-weight: 700;
   color: #ffffff;
-  font-size: 16px !important;
+  font-size: 15px !important;
   letter-spacing: 0;
   line-height: normal;
 }
@@ -100,6 +100,11 @@
   gap: 30px;
   padding: 0px 10px;
  
+}
+
+#inputPassword2::placeholder {
+  color: #222;
+  font-size: 14px;
 }
 
 .navbar-nav .nav-link {
@@ -446,7 +451,7 @@
   font-family: "Axiforma-Medium", Helvetica;
   font-weight: 600;
   font-size: 40px;
-  margin-top: 180px;
+  margin-top: -16px;
 }
 
 .footer-btn {
@@ -701,7 +706,7 @@
 }
 
 .task-04div p{
-  color: #333840;
+  color: #565656;
   font-weight: 400;
   font-size: 1.125rem;
     letter-spacing: .01em;
@@ -757,7 +762,8 @@
   align-items: center;
 }
 .main-footer{
-     background-image: linear-gradient(to right, #FF795C , #EFA82E);
+     /*background-image: linear-gradient(to right, #FF795C , #EFA82E);*/
+     background-color:#213343 !important;
      margin-top:-100px;
 }
 .footer-vectors{
@@ -881,6 +887,30 @@
     padding-bottom:100px;
 }
 
+.nav-link.active {
+    color: #EFA82E !important; /* Using !important to ensure it overrides other styles */
+}
+
+.btn:hover{
+    color:#fff;
+}
+
+.request-demo:hover{
+    border:2px solid #FF795C;
+    color:#FF795C;
+}
+
+.pb-78{
+    padding-bottom:78px;
+}
+
+.pt-47{
+    padding-top:47px;
+}
+
+.btn1{
+    color:#fb8550 !important;
+}
 /*--------------------mobile reponsive----------------------*/
 
 @media (min-width: 320px) and (max-width: 480px) {

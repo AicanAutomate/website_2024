@@ -43,47 +43,57 @@
   </head>
   <body>
 
-    <div class="container">
+    <div class="container-fluid">
      <!-- Navbar Started -->
-    <nav class="navbar navbar-expand-lg navbar-light ">
+    <nav class="navbar-expand-lg navbar-light ">
         <div class="container-fluid">
-            <div class="row w-100 align-items-center">
-                <div class="col-md-2 d-flex align-items-center">
+            <div class="row align-items-center">
+                <div class="col-md-2 d-flex align-items-center justify-content-space-evenly">
             
-                            <a class="navbar-brand" href="#">
+                            <a class="navbar-brand" href="index.html">
                                 <img src="images/logo.png">
                             </a>
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
                </div>
            
                 <div class="col-md-7 ">
                     <div class=" navbar-collapse justify-content-end" id="navbarSupportedContent">
-                    <ul class="navbar-nav w-100 justify-content-center">
+                    <ul class="navbar-nav justify-content-center">
                       <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-a" href="#"  role="button" data-bs-toggle="" aria-expanded="false">
-                          Optiwise Pro                  </a>
+                        <a class="nav-link dropdown-a active" href="#"  role="button" data-bs-toggle="" aria-expanded="false">
+                          Optiwise Pro                 </a>
                          </li>
                          <li class="nav-item dropdown">
                           <a class="nav-link dropdown-a" href="#"  role="button" data-bs-toggle="" aria-expanded="false">
-                            Optiwise Lite                  </a>
+                            Optiwise AI                 </a>
                            </li>
                            <li class="nav-item dropdown">
                             <a class="nav-link dropdown-a" href="#"  role="button" data-bs-toggle="" aria-expanded="false">
-                              AI              </a>
+                              Kamaaiklub           </a>
                              </li>
                             
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle dropdown-a" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    About Us                    </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <li><a class="dropdown-item" href="#"></a></li>
-                              <li><a class="dropdown-item" href="#"> </a></li>
-                              <li><hr class="dropdown-divider"></li>
-                              <li><a class="dropdown-item" href="#">  </a></li>
-                            </ul>
-                          </li>
+                            <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-a" href="#"  role="button" data-bs-toggle="" aria-expanded="false">
+                              Task Manager          </a>
+                             </li>
+                             
+                             <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-a" href="#"  role="button" data-bs-toggle="" aria-expanded="false">
+                              Production         </a>
+                             </li>
+                            
+                        <!--<li class="nav-item dropdown">-->
+                        <!--    <a class="nav-link dropdown-toggle dropdown-a" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">-->
+                        <!--            About Us                    </a>-->
+                        <!--    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">-->
+                        <!--      <li><a class="dropdown-item" href="#"></a></li>-->
+                        <!--      <li><a class="dropdown-item" href="#"> </a></li>-->
+                        <!--      <li><hr class="dropdown-divider"></li>-->
+                        <!--      <li><a class="dropdown-item" href="#">  </a></li>-->
+                        <!--    </ul>-->
+                        <!--  </li>-->
         
                           
         
@@ -92,11 +102,10 @@
                     </ul>
                 </div></div>
 
-                <div class="col-md-3 " >
+                <div class="col-md-3 nav-btn" >
                     <div class="d-flex justify-content-end">
-                    <div class="gradient-btn">
+                    <div class="gradient-btn ">
                     <a href="#" class="a-tag">Book Free Demo 
-                    
                     <!--<svg xmlns="http://www.w3.org/2000/svg" width="35px" height="35px" viewBox="0 0 1024 1024"><path fill="white" d="M754.752 480H160a32 32 0 1 0 0 64h594.752L521.344 777.344a32 32 0 0 0 45.312 45.312l288-288a32 32 0 0 0 0-45.312l-288-288a32 32 0 1 0-45.312 45.312z"/></svg>-->
                     </a>
                     
@@ -110,7 +119,9 @@
            
           </div>
        
-      </nav> </div>
+      </nav>
+      
+      </div>
     <!-- Navbar Ended -->
 
 
@@ -125,6 +136,18 @@
           <h6>LOREM IPSUM DOLOR</h6>
           <h2 class="mt-4">Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit.</h2>
           <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio<br> mattis.</p>
+          <form class="row d-flex mt-4 align-items-center justify-content-center">
+            <div class="col-auto">
+              <label for="inputPassword2" class="visually-hidden">Enter your E-mail</label>
+              <input type="password" class="form-control" id="inputPassword2" placeholder="Enter your E-mail">
+            </div>
+            <div class="col-auto ">
+              <button type="submit" class="btn btn-gradient banner-btn">Get Started
+              
+              <!--<svg xmlns="http://www.w3.org/2000/svg" width="26px" height="26px" viewBox="0 0 1024 1024"><path fill="white" d="M754.752 480H160a32 32 0 1 0 0 64h594.752L521.344 777.344a32 32 0 0 0 45.312 45.312l288-288a32 32 0 0 0 0-45.312l-288-288a32 32 0 1 0-45.312 45.312z"></path></svg>-->
+              </button>
+            </div>
+          </form>
         
         </div>
       </div>
@@ -543,7 +566,8 @@
             </div>
                 </div>
               </div>
-            </figure></div>
+            </figure>
+            </div>
                   </div>
                   <div class="ProductFeatureCard__graphicOverlay">
                     <img src="images/cardd.PNG" class="img-fluid">
@@ -619,7 +643,8 @@
               
             </section>
                 </div>
-                <div class="ProductFeatureCard__cta"><a
+                
+                <div class="ProductFeatureCard__cta d-none"><a
               class="
                 Link
                 
@@ -3271,14 +3296,17 @@
 
 
 <!-- Footer -->
-<section class="kamaai-klub-footer">
+<div class="container pb-100">
+    <section class="kamaai-klub-footer">
     <h2>Unify your team’s work with jira</h2>
     <button class="footer-btn"><a class="footer-text"> Book Free Demo</a></button>
     <img src="images/optiwise.png" class="optiwise">
   </section>
+</div>
+
   
-   <!--Footer-->
-  <section class="footer-sec">
+    <!--Footer-->
+  <section class="footer-sec pt-100">
       <!--<div class="half-footer">-->
       <!--    <div class="container">-->
       <!--        <div class="row m-auto">-->
@@ -3295,9 +3323,9 @@
       <!--        </div>-->
       <!--    </div>-->
       <!--</div>-->
-      <div class="main-footer pt-100 pb-100">
+      <div class="main-footer pt-47 pb-78">
           <div class="container-fluid">
-          <div class="row mt-5 align-items-center mb-5 footer-row-1">
+          <div class="row align-items-center mb-5 footer-row-1">
               <div class="col-md-4 pb-4">
                   <div class="footer-vector-div">
                   <svg xmlns="http://www.w3.org/2000/svg" class="footer-vectors" viewBox="0 0 32 32"><path fill="currentColor" d="M21 30a8 8 0 1 1 8-8a8 8 0 0 1-8 8m0-14a6 6 0 1 0 6 6a6 6 0 0 0-6-6"/><path fill="currentColor" d="M22.59 25L20 22.41V18h2v3.59l2 2z"/><path fill="currentColor" d="M28 6a2 2 0 0 0-2-2h-4V2h-2v2h-8V2h-2v2H6a2 2 0 0 0-2 2v20a2 2 0 0 0 2 2h4v-2H6V6h4v2h2V6h8v2h2V6h4v6h2Z"/></svg>
@@ -3375,8 +3403,11 @@
                      <a href="#" class="text-white">Resources</a>
                 </div>
                 <div class="col-md-2 footer-md-2">
-                    <img src="images/Group 8.png" class="right-icon">
-                    <img src="images/Group 9.png" class="right-icon1">
+                    <a href="https://www.linkedin.com/company/ai-can-co-in/">
+                        <img src="images/linkedin (1).png" class="right-icon">
+                    </a>
+                    <a href="https://www.instagram.com/aican.co.in?igsh=M2tpb3B1aDNoZ20w"><img src="images/social.png" class="right-icon1"> </a>
+                    
                     </div>
               </div>
          </div>
@@ -3400,52 +3431,7 @@
       <script src="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
       <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-      <script>
-        function injectStyles(rule) {
-          var div = $("<div />", {
-            html: "&shy;<style>" + rule + "</style>",
-          }).appendTo("body");
-        }
-  
-        var slide_dwell_time = 4000;
-        var percent = 0;
-        var transition_time = slide_dwell_time / 1000;
-  
-                      /* var style = document.createElement('style');
-                  document.head.appendChild(style);
-                  style.sheet.insertRule(
-                  '.progress-bar {transition: width ' + transition_time +'s ease-in }'
-                  ); */
-  
-        injectStyles(
-          ".progress-bar {transition: width " + transition_time + "s ease-in }"
-        );
-  
-        $(".card").eq(0).find(".progress-bar").addClass("animate-bar");
-  
-        $(".carousel").carousel({
-          interval: slide_dwell_time,
-        });
-  
-        $("#carouselExampleCaptions").on("slide.bs.carousel", function (e) {
-          $("#carousel-from").html(e.from);
-          $("#carousel-to").html(e.to);
-  
-          $(".collapse").eq(e.from).collapse("hide");
-  
-          $(".card").eq(e.from).find(".progress-bar").removeClass("animate-bar");
-  
-          $(".card").eq(e.to).find(".progress-bar").addClass("animate-bar");
-        });
-  
-        $("#carouselExampleCaptions").on("slid.bs.carousel", function (e) {
-          $(".collapse").eq(e.to).collapse("show");
-        });
-  
-        $(".collapse").collapse({
-          toggle: false,
-        });
-      </script>
+     
       <script>
         jQuery(document).ready(function ($) {
           $(".slick.marquee_rtl").slick({
@@ -3525,6 +3511,18 @@
           playPauseButton.classList.remove("playing");
         });
       </script>
+      
+        <script>
+            const navLinks = document.querySelectorAll('.nav-link');
+            navLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    navLinks.forEach(navLink => {
+                        navLink.classList.remove('active');
+                    });
+                    this.classList.add('active');
+                });
+            });
+       </script>
     </body>
   </html>
   
