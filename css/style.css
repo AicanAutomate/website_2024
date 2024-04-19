@@ -23,44 +23,56 @@
   background-color: #ff795c !important;
   height: 40px;
 }
+label {
+  display: block;
+  margin-top: 1em;
+}
+
+.req {
+  color: red;
+}
 .gradient-btn button {
   width: fit-content;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
-  color: #ffffff; 
+  color: #ffffff;
   font-size: 15px;
   letter-spacing: 0;
   line-height: normal;
 }
 
-.form-required{
-    color: red;
-    font-weight: bold;
-    font-size: 12px;
+.form-required {
+  color: red;
+  font-weight: bold;
+  font-size: 12px;
 }
 
-.owl-theme .owl-nav [class*=owl-]:hover {
-    background: #f6f6f6!important;
-    color:  #2f333e !important;
-    text-decoration: none;
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: #f6f6f6 !important;
+  color: #2f333e !important;
+  text-decoration: none;
 }
 
 .btn1:hover {
-    color: #fb8550!important;
+  color: #fb8550 !important;
 }
 
-.gradient-btn .btn:hover{
-    color:#ffffff !important;
+.gradient-btn .btn:hover {
+  color: #ffffff !important;
 }
-.modal-head{
-    font-size: 35px;
+.modal-head {
+  font-size: 35px;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   letter-spacing: 0;
   line-height: normal;
   text-align: center;
-  background: linear-gradient( 90deg, rgb(255, 120.82, 92.07) 0%, rgb(239, 168, 46) 100% );
-    background-clip: border-box;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 120.82, 92.07) 0%,
+    rgb(239, 168, 46) 100%
+  );
+  background-clip: border-box;
   background-clip: border-box;
   background-clip: border-box;
   -webkit-background-clip: text !important;
@@ -69,11 +81,12 @@
   text-fill-color: transparent;
   color: transparent;
 }
-.btn{
-    border:none !important;
+.btn {
+  border: none !important;
 }
-.btn-check:focus + .btn, .btn:focus{
-    box-shadow:none !important;
+.btn-check:focus + .btn,
+.btn:focus {
+  box-shadow: none !important;
 }
 .gradient-border {
   width: fit-content;
@@ -716,7 +729,7 @@ video {
   line-height: normal;
 }
 .linear-p {
- font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 500;
   color: #ffffff;
   font-size: 16px;
@@ -743,7 +756,7 @@ video {
 }
 .parent-div h5 {
   width: calc(100% - 55px);
- font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 500;
   color: #555555;
   font-size: 18px;
@@ -776,7 +789,7 @@ video {
   font-family: "Open Sans", sans-serif;
   font-weight: 500;
   /*color: #000000;*/
-  color:#565656;
+  color: #565656;
   font-size: 20px;
   letter-spacing: 0;
   line-height: normal;
@@ -1019,7 +1032,7 @@ video {
   line-height: 56px;
 }
 .kamaai-banner-section p {
- font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 500;
   color: #000000;
   font-size: 16px;
@@ -1097,7 +1110,7 @@ video {
   width: 80px;
 }
 .feat-div p {
- font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 22px;
@@ -1127,7 +1140,7 @@ video {
 .kamaaiklub-div h2 {
   font-size: 3.0625rem;
   line-height: 3.375rem;
- font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   text-align: center;
   position: relative;
@@ -1218,7 +1231,7 @@ video {
 }
 .kamaai-klub-footer h2 {
   color: #ffffff;
- font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 40px;
   margin-top: -40px;
@@ -1482,7 +1495,7 @@ li {
 .half-footer-p {
   font-family: "Open Sans", sans-serif;
   font-weight: 500;
-  color:#565656;
+  color: #565656;
   /*color: #000;*/
   font-size: 20px;
   letter-spacing: 0;
@@ -1729,29 +1742,28 @@ li {
   display: block;
 }
 
-.pb-78{
-    padding-bottom:78px !important;
+.pb-78 {
+  padding-bottom: 78px !important;
 }
 
-.pt-216{
-        padding-top: 216px;
+.pt-216 {
+  padding-top: 216px;
 }
-
 
 .container-fluid {
-    width: 95% !important;
+  width: 95% !important;
 }
 
 /*.btn:hover {*/
 /*    color: #fb8550 !important;*/
 /*}*/
 
-.banner-btn{
-        background-color: #FF795C !important;
+.banner-btn {
+  background-color: #ff795c !important;
 }
 
 .nav-link.active {
-    color: #EFA82E !important; 
+  color: #efa82e !important;
 }
 /*--------------------mobile reponsive----------------------*/
 
@@ -2113,21 +2125,21 @@ li {
   }
 }
 
-
-.modal-header,.modal-footer{
-    border:0px !important;
+.modal-header,
+.modal-footer {
+  border: 0px !important;
 }
 
-.modal-dialog form{
-    width: 500px;
+.modal-dialog form {
+  width: 500px;
   padding: 20px;
   background: #ffffff;
   border: 0px;
   border-radius: 10px;
 }
-.modal-body .row label{
-    padding-top: calc(.375rem + 1px);
-  padding-bottom: calc(.375rem + 1px);
+.modal-body .row label {
+  padding-top: calc(0.375rem + 1px);
+  padding-bottom: calc(0.375rem + 1px);
   margin-bottom: 0;
   font-size: inherit;
   line-height: 1.5;
@@ -2135,13 +2147,13 @@ li {
   font-weight: 600;
 }
 
-.position{
-    position: relative;
+.position {
+  position: relative;
   z-index: 2;
 }
-.modal-footer .gradient-btn{
-    margin:auto;
+.modal-footer .gradient-btn {
+  margin: auto;
 }
-.modal-content{
-    border:0px;
+.modal-content {
+  border: 0px;
 }
