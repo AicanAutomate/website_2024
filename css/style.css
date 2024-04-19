@@ -1,5 +1,12 @@
 @import "./variables.css";
+label {
+  display: block;
+  margin-top: 1em;
+}
 
+.req {
+  color: red;
+}
 .dropdown-a {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
