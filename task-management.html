@@ -4667,6 +4667,26 @@
           --gutterWidth: calc(var(--windowWidth) / 2 - var(--layoutWidth) / 2);
         }
       }
+      @media only screen and (max-width: 700px) {
+        .mobile-text-heading {
+          font-size: 18px !important;
+          line-height: 1.5rem !important;
+        }
+        .mobile-text-heading2 {
+          font-size: 24px !important;
+          line-height: 1.5rem !important;
+        }
+        .mobile-para {
+          font-size: 16px !important;
+        }
+        .mobile-input {
+          width: 90% !important;
+          margin: 12px auto;
+        }
+        .mobile-input-container {
+          width: 100% !important;
+        }
+      }
     </style>
   </head>
   <body>
@@ -4796,11 +4816,11 @@
           <div class="col-md-12">
             <div class="sub-header">
               <h6>LOREM IPSUM DOLOR</h6>
-              <h2 class="mt-4">
+              <h2 class="mt-4 mobile-text-heading">
                 Lorem ipsum dolor sit amet, consectetur<br />
                 adipiscing elit.
               </h2>
-              <p class="mt-4">
+              <p class="mt-4 mobile-para">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
                 vulputate libero et velit interdum, ac aliquet odio<br />
                 mattis.
@@ -4808,13 +4828,13 @@
               <form
                 class="row d-flex mt-4 align-items-center justify-content-center"
               >
-                <div class="col-auto">
+                <div class="col-auto mobile-input-container">
                   <label for="inputPassword2" class="visually-hidden"
                     >Enter your E-mail</label
                   >
                   <input
                     type="password"
-                    class="form-control"
+                    class="form-control mobile-input"
                     id="inputPassword2"
                     placeholder="Enter your E-mail"
                   />
@@ -4850,12 +4870,12 @@
               data-aos-delay="50"
               data-aos-duration="1500"
               data-aos-easing="ease-in-out"
-              class="aos-init aos-animate task03"
+              class="aos-init aos-animate task03 mobile-text-heading"
             >
               Lorem ipsum dolor sit amet, consectetur<br />
               adipiscing elit.
             </h2>
-            <p class="task03p">
+            <p class="task03p mobile-para">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
               vulputate libero et <br />velit interdum, ac aliquet odio mattis.
             </p>
@@ -7599,8 +7619,10 @@
         <div class="row">
           <div class="col-md-5">
             <div class="task-04div mt-5">
-              <h2>Streamline ordering, work requests, and fulfillment</h2>
-              <p>
+              <h2 class="mobile-text-heading2">
+                Streamline ordering, work requests, and fulfillment
+              </h2>
+              <p class="mobile-para">
                 Set up automations that increase efficiency and help you
                 standardize how requests get made and orders get fulfilled.
               </p>
@@ -7621,7 +7643,7 @@
           </div>
           <div class="col-md-5 offset-md-1">
             <div class="task-04div mt-5">
-              <h2>Make data-driven decisions</h2>
+              <h2 class="mobile-text-heading2">Make data-driven decisions</h2>
               <p>
                 Audit vendors, programs, and processes based on performance data
                 to ensure you make the right decisions for your business.
@@ -7637,7 +7659,9 @@
         <div class="row">
           <div class="col-md-5">
             <div class="task-04div mt-5">
-              <h2>Streamline ordering, work requests, and fulfillment</h2>
+              <h2 class="mobile-text-heading2">
+                Streamline ordering, work requests, and fulfillment
+              </h2>
               <p>
                 Set up automations that increase efficiency and help you
                 standardize how requests get made and orders get fulfilled.
@@ -7659,7 +7683,7 @@
           </div>
           <div class="col-md-5 offset-md-1">
             <div class="task-04div mt-5">
-              <h2>Make data-driven decisions</h2>
+              <h2 class="mobile-text-heading2">Make data-driven decisions</h2>
               <p>
                 Audit vendors, programs, and processes based on performance data
                 to ensure you make the right decisions for your business.
@@ -7673,7 +7697,7 @@
     <!-- Footer -->
     <div class="container pb-100" data-aos="fade-up">
       <section class="kamaai-klub-footer">
-        <h2>Unify your team’s work with jira</h2>
+        <h2 class="mobile-text-heading2">Unify your team’s work with jira</h2>
         <button class="footer-btn">
           <a class="footer-text"> Book Free Demo</a>
         </button>
