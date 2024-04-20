@@ -118,7 +118,7 @@
 						<div
 							class="col-md-2 d-flex align-items-center justify-content-space-evenly"
 						>
-							<a class="navbar-brand" href="index.html">
+							<a class="navbar-brand" href="../index.html">
 								<img src="images/LOGO_1_1.svg" class="nav-logo" />
 							</a>
 							<button
@@ -142,8 +142,8 @@
 								<ul class="navbar-nav justify-content-center">
 									<li class="nav-item dropdown">
 										<a
-											class="nav-link dropdown-a active"
-											href="#"
+											class="nav-link dropdown-a"
+											href="../optimize-pro.html"
 											role="button"
 											data-bs-toggle=""
 											aria-expanded="false"
@@ -154,7 +154,7 @@
 									<li class="nav-item dropdown">
 										<a
 											class="nav-link dropdown-a"
-											href="#"
+											href="../optimise-ai.html"
 											role="button"
 											data-bs-toggle=""
 											aria-expanded="false"
@@ -164,7 +164,7 @@
 									</li>
 									<li class="nav-item dropdown">
 										<a
-											class="nav-link dropdown-a"
+											class="nav-link dropdown-a active"
 											href="#"
 											role="button"
 											data-bs-toggle=""
@@ -177,7 +177,7 @@
 									<li class="nav-item dropdown">
 										<a
 											class="nav-link dropdown-a"
-											href="#"
+											href="../task-management.html"
 											role="button"
 											data-bs-toggle=""
 											aria-expanded="false"
@@ -189,7 +189,7 @@
 									<li class="nav-item dropdown">
 										<a
 											class="nav-link dropdown-a"
-											href="#"
+											href="../production.html"
 											role="button"
 											data-bs-toggle=""
 											aria-expanded="false"
@@ -1410,22 +1410,5 @@
 		<!--        playPauseButton.classList.remove('playing');-->
 		<!--    });-->
 		<!--</script>-->
-
-		<script>
-			// Get all the links in the navigation
-			const navLinks = document.querySelectorAll('.nav-link');
-
-			// Loop through each link and add a click event listener
-			navLinks.forEach((link) => {
-				link.addEventListener('click', function () {
-					// Remove the 'active' class from all links
-					navLinks.forEach((navLink) => {
-						navLink.classList.remove('active');
-					});
-					// Add the 'active' class to the clicked link
-					this.classList.add('active');
-				});
-			});
-		</script>
 	</body>
 </html>
