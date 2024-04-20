@@ -910,6 +910,19 @@
 .btn1 {
 	color: #fb8550 !important;
 }
+
+.kamaai-banner-div {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 80px;
+	padding-inline: 30px;
+}
+
+.kamaai-img {
+	width: 40%;
+}
+
 /*--------------------mobile reponsive----------------------*/
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -1002,6 +1015,16 @@
 	}
 	.feat-div {
 		height: 230px;
+	}
+	.kamaai-banner-div {
+		margin: 0px;
+		flex-direction: column;
+	}
+	.kamaai-banner-div > div {
+		width: 80%;
+	}
+	.kamaai-img {
+		margin-top: 20px;
 	}
 }
 
@@ -1101,6 +1124,17 @@
 	.feat-div {
 		height: 263px;
 		/*width: 150px;*/
+	}
+
+	.kamaai-banner-div {
+		margin: 0px;
+		flex-direction: column;
+	}
+	.kamaai-banner-div > div {
+		width: 80%;
+	}
+	.kamaai-img {
+		margin-top: 20px;
 	}
 }
 
