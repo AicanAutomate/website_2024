@@ -971,12 +971,12 @@ video {
 }
 
 .optiwise-img {
-	height: 300px;
 	width: 100%;
+	aspect-ratio: calc(1296 / 440);
 }
 
 .sub-header1 h6 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans' sans-serif;
 	font-weight: 600;
 	color: #555555;
 	font-size: 12px;
