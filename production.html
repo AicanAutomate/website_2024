@@ -13,6 +13,7 @@
 			crossorigin="anonymous"
 		/>
 		<link href="css/optiwise.css" rel="stylesheet" />
+		<link href="css/style.css" rel="stylesheet" />
 
 		<link
 			rel="stylesheet"
@@ -38,120 +39,99 @@
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
 		/>
-		<title>Aican | Production</title>
+		<title>Aican</title>
 	</head>
+
 	<body>
-		<div class="container-fluid">
+		<div class="container-fluid mb-2">
 			<!-- Navbar Started -->
-			<nav class="navbar-expand-lg navbar-light">
+			<nav class="navbar navbar-expand-lg">
 				<div class="container-fluid">
-					<div class="row align-items-center">
-						<div
-							class="col-md-2 d-flex align-items-center justify-content-space-evenly"
-						>
-							<a class="navbar-brand" href="index.html">
-								<img src="images/logo.png" />
-							</a>
+					<a class="navbar-brand" href="index.html">
+						<img src="images/logo.png" />
+					</a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"
+							><img src="images/Hamburger_icon.svg"
+						/></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav justify-content-center me-auto m-auto">
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-a"
+									href="optimize-pro.html"
+									role="button"
+									data-bs-toggle=""
+									aria-expanded="false"
+								>
+									Optiwise Pro
+								</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-a"
+									href="#"
+									role="button"
+									data-bs-toggle=""
+									aria-expanded="false"
+								>
+									Optiwise AI
+								</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-a"
+									href="kamaai-klub/kamaai-klub.html"
+									role="button"
+									data-bs-toggle=""
+									aria-expanded="false"
+								>
+									Kamaaiklub
+								</a>
+							</li>
+
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-a"
+									href="task-management.html"
+									role="button"
+									data-bs-toggle=""
+									aria-expanded="false"
+								>
+									Task Manager
+								</a>
+							</li>
+
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-a active"
+									href="#"
+									role="button"
+									data-bs-toggle=""
+									aria-expanded="false"
+								>
+									Production
+								</a>
+							</li>
+						</ul>
+						<div class="gradient-btn mt-3" id="book-btn-nav">
 							<button
-								class="navbar-toggler"
 								type="button"
-								data-bs-toggle="collapse"
-								data-bs-target="#navbarSupportedContent"
-								aria-controls="navbarSupportedContent"
-								aria-expanded="false"
-								aria-label="Toggle navigation"
+								class="btn a-tag"
+								data-bs-toggle="modal"
+								data-bs-target="#exampleModal"
 							>
-								<span class="navbar-toggler-icon"></span>
+								Book&nbsp;Free&nbsp;Demo
 							</button>
-						</div>
-
-						<div class="col-md-7">
-							<div
-								class="navbar-collapse justify-content-center"
-								id="navbarSupportedContent"
-							>
-								<ul class="navbar-nav justify-content-center">
-									<li class="nav-item dropdown">
-										<a
-											class="nav-link dropdown-a"
-											href="optimize-pro.html"
-											role="button"
-											data-bs-toggle=""
-											aria-expanded="false"
-										>
-											Optiwise Pro
-										</a>
-									</li>
-									<li class="nav-item dropdown">
-										<a
-											class="nav-link dropdown-a"
-											href="#"
-											role="button"
-											data-bs-toggle=""
-											aria-expanded="false"
-										>
-											Optiwise AI
-										</a>
-									</li>
-									<li class="nav-item dropdown">
-										<a
-											class="nav-link dropdown-a"
-											href="kamaai-klub/kamaai-klub.html"
-											role="button"
-											data-bs-toggle=""
-											aria-expanded="false"
-										>
-											Kamaaiklub
-										</a>
-									</li>
-
-									<li class="nav-item dropdown">
-										<a
-											class="nav-link dropdown-a"
-											href="task-management.html"
-											role="button"
-											data-bs-toggle=""
-											aria-expanded="false"
-										>
-											Task Manager
-										</a>
-									</li>
-
-									<li class="nav-item dropdown">
-										<a
-											class="nav-link dropdown-a active"
-											href="#"
-											role="button"
-											data-bs-toggle=""
-											aria-expanded="false"
-										>
-											Production
-										</a>
-									</li>
-
-									<!--<li class="nav-item dropdown">-->
-									<!--    <a class="nav-link dropdown-toggle dropdown-a" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">-->
-									<!--            About Us                    </a>-->
-									<!--    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">-->
-									<!--      <li><a class="dropdown-item" href="#"></a></li>-->
-									<!--      <li><a class="dropdown-item" href="#"> </a></li>-->
-									<!--      <li><hr class="dropdown-divider"></li>-->
-									<!--      <li><a class="dropdown-item" href="#">  </a></li>-->
-									<!--    </ul>-->
-									<!--  </li>-->
-								</ul>
-							</div>
-						</div>
-
-						<div class="col-md-3 nav-btn">
-							<div class="d-flex justify-content-end">
-								<div class="gradient-btn">
-									<a href="#" class="a-tag"
-										>Book Free Demo
-										<!--<svg xmlns="http://www.w3.org/2000/svg" width="35px" height="35px" viewBox="0 0 1024 1024"><path fill="white" d="M754.752 480H160a32 32 0 1 0 0 64h594.752L521.344 777.344a32 32 0 0 0 45.312 45.312l288-288a32 32 0 0 0 0-45.312l-288-288a32 32 0 1 0-45.312 45.312z"/></svg>-->
-									</a>
-								</div>
-							</div>
 						</div>
 					</div>
 				</div>
@@ -190,7 +170,7 @@
 										placeholder="Enter your E-mail"
 									/>
 								</div>
-								<div class="col-auto">
+								<div class="col-auto mt-4">
 									<button type="submit" class="btn btn-gradient banner-btn">
 										Get Started
 
@@ -221,12 +201,18 @@
 							data-aos-delay="50"
 							data-aos-duration="1500"
 							data-aos-easing="ease-in-out"
-							class="aos-init aos-animate task03"
+							class="mt-4 heading text-wrap"
 						>
 							Lorem ipsum dolor sit amet, consectetur<br />
 							adipiscing elit.
 						</h2>
-						<p class="task03p">
+						<p
+							class="task03p"
+							data-aos="fade-up"
+							data-aos-delay="50"
+							data-aos-duration="1500"
+							data-aos-easing="ease-in-out"
+						>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
 							vulputate libero et <br />velit interdum, ac aliquet odio mattis.
 						</p>
@@ -3314,13 +3300,26 @@
 			</div>
 		</section>
 
-		<section class="task-04 pt-100 pb-100">
+		<section class="task-04 pb-100">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-5">
 						<div class="task-04div mt-5">
-							<h2>Streamline ordering, work requests, and fulfillment</h2>
-							<p>
+							<h2
+								data-aos="fade-up"
+								data-aos-delay="50"
+								data-aos-duration="1500"
+								data-aos-easing="ease-in-out"
+								class="heading text-wrap"
+							>
+								Streamline ordering, work requests, and fulfillment
+							</h2>
+							<p
+								data-aos="fade-up"
+								data-aos-delay="50"
+								data-aos-duration="1500"
+								data-aos-easing="ease-in-out"
+							>
 								Set up automations that increase efficiency and help you
 								standardize how requests get made and orders get fulfilled.
 							</p>
@@ -3341,8 +3340,20 @@
 					</div>
 					<div class="col-md-5 offset-md-1">
 						<div class="task-04div mt-5">
-							<h2>Make data-driven decisions</h2>
-							<p>
+							<h2
+								data-aos="fade-up"
+								data-aos-delay="50"
+								data-aos-duration="1500"
+								data-aos-easing="ease-in-out"
+							>
+								Make data-driven decisions
+							</h2>
+							<p
+								data-aos="fade-up"
+								data-aos-delay="50"
+								data-aos-duration="1500"
+								data-aos-easing="ease-in-out"
+							>
 								Audit vendors, programs, and processes based on performance data
 								to ensure you make the right decisions for your business.
 							</p>
@@ -3357,8 +3368,20 @@
 				<div class="row">
 					<div class="col-md-5">
 						<div class="task-04div mt-5">
-							<h2>Streamline ordering, work requests, and fulfillment</h2>
-							<p>
+							<h2
+								data-aos="fade-up"
+								data-aos-delay="50"
+								data-aos-duration="1500"
+								data-aos-easing="ease-in-out"
+							>
+								Streamline ordering, work requests, and fulfillment
+							</h2>
+							<p
+								data-aos="fade-up"
+								data-aos-delay="50"
+								data-aos-duration="1500"
+								data-aos-easing="ease-in-out"
+							>
 								Set up automations that increase efficiency and help you
 								standardize how requests get made and orders get fulfilled.
 							</p>
@@ -3379,8 +3402,20 @@
 					</div>
 					<div class="col-md-5 offset-md-1">
 						<div class="task-04div mt-5">
-							<h2>Make data-driven decisions</h2>
-							<p>
+							<h2
+								data-aos="fade-up"
+								data-aos-delay="50"
+								data-aos-duration="1500"
+								data-aos-easing="ease-in-out"
+							>
+								Make data-driven decisions
+							</h2>
+							<p
+								data-aos="fade-up"
+								data-aos-delay="50"
+								data-aos-duration="1500"
+								data-aos-easing="ease-in-out"
+							>
 								Audit vendors, programs, and processes based on performance data
 								to ensure you make the right decisions for your business.
 							</p>
@@ -3393,7 +3428,14 @@
 		<!-- Footer -->
 		<div class="container pb-100">
 			<section class="kamaai-klub-footer">
-				<h2>Unify your team’s work with jira</h2>
+				<h2
+					data-aos="fade-up"
+					data-aos-delay="50"
+					data-aos-duration="1500"
+					data-aos-easing="ease-in-out"
+				>
+					Unify your team’s work with jira
+				</h2>
 				<button class="footer-btn">
 					<a class="footer-text"> Book Free Demo</a>
 				</button>

@@ -43,119 +43,93 @@
 	<body>
 		<div class="container-fluid">
 			<!-- Navbar Started -->
-			<nav class="navbar-expand-lg navbar-light">
+			<nav class="navbar navbar-expand-lg">
 				<div class="container-fluid">
-					<div class="row align-items-center">
-						<div
-							class="col-md-2 d-flex align-items-center justify-content-space-evenly"
-						>
-							<a class="navbar-brand" href="#">
-								<img src="images/logo.png" />
-							</a>
+					<a class="navbar-brand" href="#">
+						<img src="images/logo.png" />
+					</a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"
+							><img src="images/Hamburger_icon.svg"
+						/></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav justify-content-center me-auto m-auto">
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-a"
+									href="optimize-pro.html"
+									role="button"
+									data-bs-toggle=""
+									aria-expanded="false"
+								>
+									Optiwise Pro
+								</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-a"
+									href="#"
+									role="button"
+									data-bs-toggle=""
+									aria-expanded="false"
+								>
+									Optiwise AI
+								</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-a"
+									href="kamaai-klub/kamaai-klub.html"
+									role="button"
+									data-bs-toggle=""
+									aria-expanded="false"
+								>
+									Kamaaiklub
+								</a>
+							</li>
+
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-a"
+									href="task-management.html"
+									role="button"
+									data-bs-toggle=""
+									aria-expanded="false"
+								>
+									Task Manager
+								</a>
+							</li>
+
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-a"
+									href="production.html"
+									role="button"
+									data-bs-toggle=""
+									aria-expanded="false"
+								>
+									Production
+								</a>
+							</li>
+						</ul>
+						<div class="gradient-btn mt-3" id="book-btn-nav">
 							<button
-								class="navbar-toggler"
 								type="button"
-								data-bs-toggle="collapse"
-								data-bs-target="#navbarSupportedContent"
-								aria-controls="navbarSupportedContent"
-								aria-expanded="false"
-								aria-label="Toggle navigation"
+								class="btn a-tag"
+								data-bs-toggle="modal"
+								data-bs-target="#exampleModal"
 							>
-								<span class="navbar-toggler-icon"></span>
+								Book&nbsp;Free&nbsp;Demo
 							</button>
-						</div>
-
-						<div class="col-md-7">
-							<div
-								class="navbar-collapse justify-content-end"
-								id="navbarSupportedContent"
-							>
-								<ul class="navbar-nav justify-content-center">
-									<li class="nav-item dropdown">
-										<a
-											class="nav-link dropdown-a"
-											href="optimize-pro.html"
-											role="button"
-											data-bs-toggle=""
-											aria-expanded="false"
-										>
-											Optiwise Pro
-										</a>
-									</li>
-									<li class="nav-item dropdown">
-										<a
-											class="nav-link dropdown-a"
-											href="#"
-											role="button"
-											data-bs-toggle=""
-											aria-expanded="false"
-										>
-											Optiwise AI
-										</a>
-									</li>
-									<li class="nav-item dropdown">
-										<a
-											class="nav-link dropdown-a"
-											href="kamaai-klub/kamaai-klub.html"
-											role="button"
-											data-bs-toggle=""
-											aria-expanded="false"
-										>
-											Kamaaiklub
-										</a>
-									</li>
-
-									<li class="nav-item dropdown">
-										<a
-											class="nav-link dropdown-a"
-											href="task-management.html"
-											role="button"
-											data-bs-toggle=""
-											aria-expanded="false"
-										>
-											Task Manager
-										</a>
-									</li>
-
-									<li class="nav-item dropdown">
-										<a
-											class="nav-link dropdown-a"
-											href="production.html"
-											role="button"
-											data-bs-toggle=""
-											aria-expanded="false"
-										>
-											Production
-										</a>
-									</li>
-
-									<!--<li class="nav-item dropdown">-->
-									<!--    <a class="nav-link dropdown-toggle dropdown-a" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">-->
-									<!--            About Us                    </a>-->
-									<!--    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">-->
-									<!--      <li><a class="dropdown-item" href="#"></a></li>-->
-									<!--      <li><a class="dropdown-item" href="#"> </a></li>-->
-									<!--      <li><hr class="dropdown-divider"></li>-->
-									<!--      <li><a class="dropdown-item" href="#">  </a></li>-->
-									<!--    </ul>-->
-									<!--  </li>-->
-								</ul>
-							</div>
-						</div>
-
-						<div class="col-md-3 nav-btn">
-							<div class="d-flex justify-content-end">
-								<div class="gradient-btn">
-									<button
-										type="button"
-										class="btn a-tag"
-										data-bs-toggle="modal"
-										data-bs-target="#exampleModal"
-									>
-										Book Free Demo
-									</button>
-								</div>
-							</div>
 						</div>
 					</div>
 				</div>
@@ -319,7 +293,7 @@
 				<div class="col-md-7 col-7 text-center">
 					<!-- <h1 class="banner-text">Improved floor level visibility to enhance</h1>
             <p class="banner-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent pe.</p>
-            <a href="#" class="gradient-btn1">Book Free Demo <svg xmlns="http://www.w3.org/2000/svg" width="35px" height="35px" viewBox="0 0 1024 1024"><path fill="white" d="M754.752 480H160a32 32 0 1 0 0 64h594.752L521.344 777.344a32 32 0 0 0 45.312 45.312l288-288a32 32 0 0 0 0-45.312l-288-288a32 32 0 1 0-45.312 45.312z"/></svg></a> -->
+            <a href="#" class="gradient-btn1">Book&nbsp;Free&nbsp;Demo <svg xmlns="http://www.w3.org/2000/svg" width="35px" height="35px" viewBox="0 0 1024 1024"><path fill="white" d="M754.752 480H160a32 32 0 1 0 0 64h594.752L521.344 777.344a32 32 0 0 0 45.312 45.312l288-288a32 32 0 0 0 0-45.312l-288-288a32 32 0 1 0-45.312 45.312z"/></svg></a> -->
 				</div>
 
 				<div class="col-md-1 col-1">
@@ -867,7 +841,7 @@
 						data-aos-duration="300"
 						data-aos-easing="ease-in-out"
 					>
-						Book Free Demo
+						Book&nbsp;Free&nbsp;Demo
 					</button>
 
 					<!--<svg xmlns="http://www.w3.org/2000/svg" width="35px" height="35px" viewBox="0 0 1024 1024"><path fill="white" d="M754.752 480H160a32 32 0 1 0 0 64h594.752L521.344 777.344a32 32 0 0 0 45.312 45.312l288-288a32 32 0 0 0 0-45.312l-288-288a32 32 0 1 0-45.312 45.312z"/></svg>-->
@@ -978,7 +952,7 @@
 						data-bs-toggle="modal"
 						data-bs-target="#exampleModal"
 					>
-						Book Free Demo
+						Book&nbsp;Free&nbsp;Demo
 					</button>
 				</div>
 			</div>
@@ -2449,7 +2423,7 @@
 					<div class="modal-content">
 						<div class="modal-header">
 							<h5 class="modal-title modal-head" id="exampleModalLabel">
-								Book Free Demo
+								Book&nbsp;Free&nbsp;Demo
 							</h5>
 							<button
 								type="button"

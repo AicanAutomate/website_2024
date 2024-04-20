@@ -2164,3 +2164,9 @@ li {
 .modal-content {
 	border: 0px;
 }
+
+@media screen and (max-width: 992px) {
+	#book-btn-nav {
+		width: 100%;
+	}
+}
