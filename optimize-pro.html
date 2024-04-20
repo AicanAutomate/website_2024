@@ -1,471 +1,510 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <link href="css/optiwise.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet" />
+		<!-- Bootstrap CSS -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous"
+		/>
+		<link href="css/optiwise.css" rel="stylesheet" />
+		<link href="css/style.css" rel="stylesheet" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-    />
-    <title>Aican</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+		/>
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+			integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+		/>
+		<title>Aican</title>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<!-- Navbar Started -->
+			<nav class="navbar-expand-lg navbar-light">
+				<div class="container-fluid">
+					<div class="row align-items-center">
+						<div
+							class="col-md-2 d-flex align-items-center justify-content-space-evenly"
+						>
+							<a class="navbar-brand" href="index.html">
+								<img src="images/logo.png" />
+							</a>
+							<button
+								class="navbar-toggler"
+								type="button"
+								data-bs-toggle="collapse"
+								data-bs-target="#navbarSupportedContent"
+								aria-controls="navbarSupportedContent"
+								aria-expanded="false"
+								aria-label="Toggle navigation"
+							>
+								<span class="navbar-toggler-icon"></span>
+							</button>
+						</div>
 
-  </head>
-  <body>
+						<div class="col-md-7">
+							<div
+								class="navbar-collapse justify-content-center"
+								id="navbarSupportedContent"
+							>
+								<ul class="navbar-nav justify-content-center">
+									<li class="nav-item dropdown">
+										<a
+											class="nav-link dropdown-a active"
+											href="#"
+											role="button"
+											data-bs-toggle=""
+											aria-expanded="false"
+										>
+											Optiwise Pro
+										</a>
+									</li>
+									<li class="nav-item dropdown">
+										<a
+											class="nav-link dropdown-a"
+											href="#"
+											role="button"
+											data-bs-toggle=""
+											aria-expanded="false"
+										>
+											Optiwise AI
+										</a>
+									</li>
+									<li class="nav-item dropdown">
+										<a
+											class="nav-link dropdown-a"
+											href="#"
+											role="button"
+											data-bs-toggle=""
+											aria-expanded="false"
+										>
+											Kamaaiklub
+										</a>
+									</li>
 
-   <div class="container-fluid">
-     <!-- Navbar Started -->
-    <nav class="navbar-expand-lg navbar-light ">
-        <div class="container-fluid">
-            <div class="row align-items-center">
-                <div class="col-md-2 d-flex align-items-center justify-content-space-evenly">
-            
-                            <a class="navbar-brand" href="index.html">
-                                <img src="images/logo.png">
-                            </a>
-                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-      </button>
-               </div>
-           
-                <div class="col-md-7 ">
-                    <div class=" navbar-collapse justify-content-center" id="navbarSupportedContent">
-                    <ul class="navbar-nav justify-content-center">
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-a active" href="#"  role="button" data-bs-toggle="" aria-expanded="false">
-                          Optiwise Pro                 </a>
-                         </li>
-                         <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-a" href="#"  role="button" data-bs-toggle="" aria-expanded="false">
-                            Optiwise AI                 </a>
-                           </li>
-                           <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-a" href="#"  role="button" data-bs-toggle="" aria-expanded="false">
-                              Kamaaiklub           </a>
-                             </li>
-                            
-                            <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-a" href="#"  role="button" data-bs-toggle="" aria-expanded="false">
-                              Task Manager          </a>
-                             </li>
-                             
-                             <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-a" href="#"  role="button" data-bs-toggle="" aria-expanded="false">
-                              Production         </a>
-                             </li>
-                            
-                        <!--<li class="nav-item dropdown">-->
-                        <!--    <a class="nav-link dropdown-toggle dropdown-a" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">-->
-                        <!--            About Us                    </a>-->
-                        <!--    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">-->
-                        <!--      <li><a class="dropdown-item" href="#"></a></li>-->
-                        <!--      <li><a class="dropdown-item" href="#"> </a></li>-->
-                        <!--      <li><hr class="dropdown-divider"></li>-->
-                        <!--      <li><a class="dropdown-item" href="#">  </a></li>-->
-                        <!--    </ul>-->
-                        <!--  </li>-->
-        
-                          
-        
-                          
-                     
-                    </ul>
-                </div></div>
+									<li class="nav-item dropdown">
+										<a
+											class="nav-link dropdown-a"
+											href="#"
+											role="button"
+											data-bs-toggle=""
+											aria-expanded="false"
+										>
+											Task Manager
+										</a>
+									</li>
 
-                <div class="col-md-3 nav-btn" >
-                    <div class="d-flex justify-content-end">
-                    <div class=" ">
-                    <a href="#" class="a-tag">
-                    <!--<svg xmlns="http://www.w3.org/2000/svg" width="35px" height="35px" viewBox="0 0 1024 1024"><path fill="white" d="M754.752 480H160a32 32 0 1 0 0 64h594.752L521.344 777.344a32 32 0 0 0 45.312 45.312l288-288a32 32 0 0 0 0-45.312l-288-288a32 32 0 1 0-45.312 45.312z"/></svg>-->
-                    </a>
-                    <button type="button" class="btn a-tag gradient-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
- Book Free Demo 
-</button>
-                    </div>
+									<li class="nav-item dropdown">
+										<a
+											class="nav-link dropdown-a"
+											href="#"
+											role="button"
+											data-bs-toggle=""
+											aria-expanded="false"
+										>
+											Production
+										</a>
+									</li>
 
-                  
-                    </div>
-                </div>
-            </div>
-           
-           
-          </div>
-       
-      </nav>
-      
-      </div>
-    <!-- Navbar Ended -->
+									<!--<li class="nav-item dropdown">-->
+									<!--    <a class="nav-link dropdown-toggle dropdown-a" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">-->
+									<!--            About Us                    </a>-->
+									<!--    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">-->
+									<!--      <li><a class="dropdown-item" href="#"></a></li>-->
+									<!--      <li><a class="dropdown-item" href="#"> </a></li>-->
+									<!--      <li><hr class="dropdown-divider"></li>-->
+									<!--      <li><a class="dropdown-item" href="#">  </a></li>-->
+									<!--    </ul>-->
+									<!--  </li>-->
+								</ul>
+							</div>
+						</div>
 
+						<div class="col-md-3 nav-btn">
+							<div class="d-flex justify-content-end">
+								<div class=" ">
+									<a href="#" class="a-tag">
+										<!--<svg xmlns="http://www.w3.org/2000/svg" width="35px" height="35px" viewBox="0 0 1024 1024"><path fill="white" d="M754.752 480H160a32 32 0 1 0 0 64h594.752L521.344 777.344a32 32 0 0 0 45.312 45.312l288-288a32 32 0 0 0 0-45.312l-288-288a32 32 0 1 0-45.312 45.312z"/></svg>-->
+									</a>
+									<button
+										type="button"
+										class="btn a-tag gradient-btn"
+										data-bs-toggle="modal"
+										data-bs-target="#exampleModal"
+									>
+										Book Free Demo
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<!-- Navbar Ended -->
 
-    <!-- -----------------hero section-------------- -->
+		<!-- -----------------hero section-------------- -->
 
+		<section class="optiwise-banner">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-md-12">
+						<div class="sub-header">
+							<h6>LOREM IPSUM DOLOR</h6>
+							<h2 class="mt-4">
+								Lorem ipsum dolor sit amet, consectetur<br />
+								adipiscing elit.
+							</h2>
+							<p class="mt-4">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+								vulputate libero et velit interdum, ac aliquet odio<br />
+								mattis.
+							</p>
+							<form
+								class="row d-flex mt-4 align-items-center justify-content-center"
+							>
+								<div class="col-auto">
+									<label for="inputPassword2" class="visually-hidden"
+										>Enter your E-mail</label
+									>
+									<input
+										type="password"
+										class="form-control"
+										id="inputPassword2"
+										placeholder="Enter your E-mail"
+									/>
+								</div>
+								<div class="col-auto">
+									<button type="submit" class="btn btn-gradient banner-btn">
+										Get Started
 
-<section class="optiwise-banner">
-  <div class="container">
-    <div class="row text-center">
-      <div class="col-md-12">
-        <div class="sub-header">
-          <h6>LOREM IPSUM DOLOR</h6>
-          <h2 class="mt-4">Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit.</h2>
-          <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio<br> mattis.</p>
-          <form class="row d-flex mt-4 align-items-center justify-content-center">
-            <div class="col-auto">
-              <label for="inputPassword2" class="visually-hidden">Enter your E-mail</label>
-              <input type="password" class="form-control" id="inputPassword2" placeholder="Enter your E-mail">
-            </div>
-            <div class="col-auto ">
-              <button type="submit" class="btn btn-gradient banner-btn">Get Started
-              
-              <!--<svg xmlns="http://www.w3.org/2000/svg" width="26px" height="26px" viewBox="0 0 1024 1024"><path fill="white" d="M754.752 480H160a32 32 0 1 0 0 64h594.752L521.344 777.344a32 32 0 0 0 45.312 45.312l288-288a32 32 0 0 0 0-45.312l-288-288a32 32 0 1 0-45.312 45.312z"></path></svg>-->
-              
-              </button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+										<!--<svg xmlns="http://www.w3.org/2000/svg" width="26px" height="26px" viewBox="0 0 1024 1024"><path fill="white" d="M754.752 480H160a32 32 0 1 0 0 64h594.752L521.344 777.344a32 32 0 0 0 45.312 45.312l288-288a32 32 0 0 0 0-45.312l-288-288a32 32 0 1 0-45.312 45.312z"></path></svg>-->
+									</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-<div class="container">
-  <div class="row">
-    <div class="col-md-12">
-      <img src="images/optiwise-1.png" class="optiwise-img">
-    </div>
-  </div>
-</div>
- <!-- Section 05 Started -->
-    <section class="sec-03 pt-100 pb-100">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="sec-12 text-center">
-          
-                <h6 class="sub-heading">LOREM IPSUM DOLOR</h6>
-              <h2 class="heading half-text aos-init aos-animate" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500" data-aos-easing="ease-in-out">Lorem ipsum dolor sit amet</h2>
-              <p class="text-center mt-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="80" data-aos-duration="2000" data-aos-easing="ease-in-out">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero <br>et velit interdum, ac aliquet odio mattis. </p>
-             
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<img src="images/optiwise-1.png" class="optiwise-img" />
+				</div>
+			</div>
+		</div>
+		<!-- Section 05 Started -->
+		<section class="sec-03 pt-100 pb-100">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="sec-12 text-center">
+							<h6 class="sub-heading">LOREM IPSUM DOLOR</h6>
+							<h2
+								class="heading half-text aos-init aos-animate"
+								data-aos="fade-up"
+								data-aos-delay="50"
+								data-aos-duration="1500"
+								data-aos-easing="ease-in-out"
+							>
+								Lorem ipsum dolor sit amet
+							</h2>
+							<p
+								class="text-center mt-3 aos-init aos-animate"
+								data-aos="fade-up"
+								data-aos-delay="80"
+								data-aos-duration="2000"
+								data-aos-easing="ease-in-out"
+							>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+								vulputate libero <br />et velit interdum, ac aliquet odio
+								mattis.
+							</p>
 
-           
+							<!-- Tabs -->
+							<div class="container mt-5">
+								<div class="tab-sec">
+									<ul class="nav nav-tabs">
+										<div
+											class="owl_1 owl-carousel owl-carousel1 owl-theme"
+											id="owl"
+										>
+											<div class="item tabs tab-m">
+												<li class="active">
+													<a data-toggle="tab" href="#home" class="icons">
+														<svg
+															width="27"
+															height="32"
+															viewBox="0 0 27 32"
+															fill="none"
+															xmlns="http://www.w3.org/2000/svg"
+														>
+															<path
+																fill-rule="evenodd"
+																clip-rule="evenodd"
+																d="M13.3473 30.7286C10.8782 30.7286 8.89195 30.6115 7.33302 30.4526C4.3617 30.1496 2.27568 27.8491 2.03183 24.8723C1.85742 22.7432 1.71436 19.8237 1.71436 15.9747C1.71436 12.1257 1.85742 9.20615 2.03183 7.07705C2.27568 4.10029 4.3617 1.79977 7.33302 1.49677C8.89195 1.3378 10.8783 1.2207 13.3473 1.2207C15.7764 1.2207 17.7949 1.33405 19.4198 1.4891C22.6642 1.79869 24.9983 4.33323 25.2509 7.58262C25.4158 9.70402 25.5477 12.49 25.5477 15.9747C25.5477 17.3111 25.5283 18.5448 25.4951 19.6776C22.7294 22.0071 19.3898 22.0357 17.651 21.8475C17.1374 21.7919 16.6472 22.3099 16.722 22.821C16.9705 24.5202 17.002 27.7874 14.4615 30.7205C14.1002 30.7258 13.7288 30.7286 13.3473 30.7286Z"
+																fill-opacity="0.1"
+															></path>
+															<path
+																d="M7.80266 30.4984C9.28506 30.6338 11.1198 30.7291 13.3475 30.7291C15.5241 30.7291 17.371 30.6381 18.9005 30.5077C22.4691 30.2032 25.0347 27.4205 25.2898 23.848C25.4361 21.7979 25.5479 19.1825 25.5479 15.9752C25.5479 12.7678 25.4361 10.1524 25.2898 8.10227C25.0347 4.52984 22.4691 1.74708 18.9005 1.44267C17.371 1.3122 15.5241 1.22119 13.3475 1.22119C11.1198 1.22119 9.28507 1.31652 7.80267 1.45191C4.53415 1.75045 2.24207 4.27504 1.995 7.54785C1.8378 9.63016 1.71452 12.4022 1.71452 15.9752C1.71452 19.5481 1.8378 22.3202 1.995 24.4025C2.24207 27.6753 4.53414 30.1999 7.80266 30.4984Z"
+																fill-opacity="0.1"
+																stroke-width="2"
+																stroke-linecap="round"
+																stroke-linejoin="round"
+															></path>
+															<path
+																d="M25.2642 19.3804C22.0256 22.9027 19.5444 19.4255 17.036 21.9339C14.5276 24.4424 18.0047 26.9236 14.1987 30.4458"
+																stroke-width="2"
+																stroke-linecap="round"
+																stroke-linejoin="round"
+															></path>
+															<path
+																d="M7.95654 8.03125H19.3057"
+																stroke-width="2"
+																stroke-linecap="round"
+																stroke-linejoin="round"
+															></path>
+															<path
+																d="M7.95654 13.7061H15.3335"
+																stroke-width="2"
+																stroke-linecap="round"
+																stroke-linejoin="round"
+															></path>
+														</svg>
+													</a>
+													<div class="tabtitle">Pocreation</div>
+												</li>
+											</div>
+											<div class="item tabs">
+												<li class="tab-m">
+													<a data-toggle="tab" href="#menu2" class="icons"
+														><svg
+															width="33"
+															height="34"
+															viewBox="0 0 33 34"
+															fill="none"
+															xmlns="http://www.w3.org/2000/svg"
+														>
+															<path
+																d="M14.147 4.57874L14.147 19.9002L24.645 28.6958C24.645 28.6958 32.3057 21.0685 27.766 12.5232C22.9426 3.44382 14.147 4.57874 14.147 4.57874Z"
+																fill-opacity="0.1"
+															></path>
+															<path
+																d="M1.09521 18.4819C1.09521 10.8036 7.3197 4.5791 14.998 4.5791C22.6763 4.5791 28.9008 10.8036 28.9008 18.4819C28.9008 26.1602 22.6763 32.3847 14.998 32.3847C7.3197 32.3847 1.09521 26.1602 1.09521 18.4819Z"
+																fill-opacity="0.1"
+																stroke-width="2"
+																stroke-linecap="round"
+																stroke-linejoin="round"
+															></path>
+															<path
+																d="M14.147 19.8975L18.1192 23.3022"
+																stroke-width="2"
+																stroke-linecap="round"
+																stroke-linejoin="round"
+															></path>
+															<path
+																d="M14.147 19.8975V11.3856"
+																stroke-width="2"
+																stroke-linecap="round"
+																stroke-linejoin="round"
+															></path>
+															<path
+																d="M23.2262 2.87581C23.2262 2.87581 27.3673 2.47715 29.1846 4.29445C31.0019 6.11176 30.6033 10.2528 30.6033 10.2528"
+																stroke-width="2"
+																stroke-linecap="round"
+																stroke-linejoin="round"
+															></path>
+														</svg>
+													</a>
+													<div class="tabtitle">Inquiry</div>
+												</li>
+											</div>
 
-            <!-- Tabs -->
-            <div class="container mt-5">
-                <div class="tab-sec">
-        <ul class="nav nav-tabs">
-          <div class="owl_1 owl-carousel owl-carousel1 owl-theme" id="owl">
-            <div class="item tabs tab-m">
-              <li class="active">
-                <a data-toggle="tab" href="#home" class="icons">
-                  <svg
-                    width="27"
-                    height="32"
-                    viewBox="0 0 27 32"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M13.3473 30.7286C10.8782 30.7286 8.89195 30.6115 7.33302 30.4526C4.3617 30.1496 2.27568 27.8491 2.03183 24.8723C1.85742 22.7432 1.71436 19.8237 1.71436 15.9747C1.71436 12.1257 1.85742 9.20615 2.03183 7.07705C2.27568 4.10029 4.3617 1.79977 7.33302 1.49677C8.89195 1.3378 10.8783 1.2207 13.3473 1.2207C15.7764 1.2207 17.7949 1.33405 19.4198 1.4891C22.6642 1.79869 24.9983 4.33323 25.2509 7.58262C25.4158 9.70402 25.5477 12.49 25.5477 15.9747C25.5477 17.3111 25.5283 18.5448 25.4951 19.6776C22.7294 22.0071 19.3898 22.0357 17.651 21.8475C17.1374 21.7919 16.6472 22.3099 16.722 22.821C16.9705 24.5202 17.002 27.7874 14.4615 30.7205C14.1002 30.7258 13.7288 30.7286 13.3473 30.7286Z"
-                      
-                      fill-opacity="0.1"
-                    ></path>
-                    <path
-                      d="M7.80266 30.4984C9.28506 30.6338 11.1198 30.7291 13.3475 30.7291C15.5241 30.7291 17.371 30.6381 18.9005 30.5077C22.4691 30.2032 25.0347 27.4205 25.2898 23.848C25.4361 21.7979 25.5479 19.1825 25.5479 15.9752C25.5479 12.7678 25.4361 10.1524 25.2898 8.10227C25.0347 4.52984 22.4691 1.74708 18.9005 1.44267C17.371 1.3122 15.5241 1.22119 13.3475 1.22119C11.1198 1.22119 9.28507 1.31652 7.80267 1.45191C4.53415 1.75045 2.24207 4.27504 1.995 7.54785C1.8378 9.63016 1.71452 12.4022 1.71452 15.9752C1.71452 19.5481 1.8378 22.3202 1.995 24.4025C2.24207 27.6753 4.53414 30.1999 7.80266 30.4984Z"
-                      
-                      fill-opacity="0.1"
-                      
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></path>
-                    <path
-                      d="M25.2642 19.3804C22.0256 22.9027 19.5444 19.4255 17.036 21.9339C14.5276 24.4424 18.0047 26.9236 14.1987 30.4458"
-                      
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></path>
-                    <path
-                      d="M7.95654 8.03125H19.3057"
-                      
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></path>
-                    <path
-                      d="M7.95654 13.7061H15.3335"
-                      
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></path>
-                  </svg>
-                </a>
-                <div class="tabtitle">Pocreation</div>
-              </li>
-            </div>
-            <div class="item tabs">
-              <li class="tab-m">
-                <a data-toggle="tab" href="#menu2" class="icons"
-                  ><svg
-                    width="33"
-                    height="34"
-                    viewBox="0 0 33 34"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M14.147 4.57874L14.147 19.9002L24.645 28.6958C24.645 28.6958 32.3057 21.0685 27.766 12.5232C22.9426 3.44382 14.147 4.57874 14.147 4.57874Z"
-                      
-                      fill-opacity="0.1"
-                    ></path>
-                    <path
-                      d="M1.09521 18.4819C1.09521 10.8036 7.3197 4.5791 14.998 4.5791C22.6763 4.5791 28.9008 10.8036 28.9008 18.4819C28.9008 26.1602 22.6763 32.3847 14.998 32.3847C7.3197 32.3847 1.09521 26.1602 1.09521 18.4819Z"
-                      
-                      fill-opacity="0.1"
-                      
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></path>
-                    <path
-                      d="M14.147 19.8975L18.1192 23.3022"
-                      
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></path>
-                    <path
-                      d="M14.147 19.8975V11.3856"
-                      
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></path>
-                    <path
-                      d="M23.2262 2.87581C23.2262 2.87581 27.3673 2.47715 29.1846 4.29445C31.0019 6.11176 30.6033 10.2528 30.6033 10.2528"
-                      
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></path>
-                  </svg>
-                </a>
-                <div class="tabtitle">Inquiry</div>
-              </li>
-            </div>
+											<div class="item tabs">
+												<li class="tab-m">
+													<a data-toggle="tab" href="#menu3" class="icons"
+														><svg
+															width="32"
+															height="32"
+															viewBox="0 0 32 32"
+															fill="none"
+															xmlns="http://www.w3.org/2000/svg"
+														>
+															<path
+																d="M15.8492 25.435C23.9976 25.435 30.6031 20.0146 30.6031 13.3281C30.6031 6.64164 23.9976 1.22119 15.8492 1.22119C7.70079 1.22119 1.09521 6.64164 1.09521 13.3281C1.09521 16.4289 2.51579 19.2574 4.85203 21.3994C7.18828 23.5413 5.35117 30.7291 5.35117 30.7291L8.44736 27.8657C10.4359 26.0267 13.1406 25.435 15.8492 25.435Z"
+																fill-opacity="0.1"
+																stroke-width="2"
+																stroke-linecap="round"
+																stroke-linejoin="round"
+															></path>
+															<path
+																d="M10.1748 15.9771L16.9843 15.9771"
+																stroke-width="2"
+																stroke-linecap="round"
+																stroke-linejoin="round"
+															></path>
+															<path
+																d="M10.1748 10.8687L22.0915 10.8687"
+																stroke-width="2"
+																stroke-linecap="round"
+																stroke-linejoin="round"
+															></path>
+														</svg>
+													</a>
+													<div class="tabtitle">Workorder</div>
+												</li>
+											</div>
+											<div class="item tabs">
+												<li class="tab-m">
+													<a data-toggle="tab" href="#menu4" class="icons"
+														><svg
+															width="32"
+															height="32"
+															viewBox="0 0 32 32"
+															fill="none"
+															xmlns="http://www.w3.org/2000/svg"
+														>
+															<path
+																d="M28.6168 1.51904L30.8867 4.64007L23.7934 23.3663L16.9839 20.8127L24.9283 1.80277L28.6168 1.51904Z"
+																fill-opacity="0.1"
+															></path>
+															<path
+																d="M21.6471 26.8649C20.1979 28.2067 17.3557 30.7719 16.9629 30.6225C16.5677 30.4723 16.2974 26.6778 16.1852 24.7528C16.143 24.0279 16.2635 23.3048 16.5276 22.6284L16.9629 21.5138L23.9591 3.59898C24.662 1.7992 26.6586 0.838259 28.4646 1.52498C30.2223 2.19331 31.0361 4.19569 30.3521 5.94727L23.4371 23.6543L22.9135 24.9949C22.6359 25.7059 22.2072 26.3463 21.6471 26.8649Z"
+																fill-opacity="0.1"
+															></path>
+															<path
+																d="M16.9629 21.5138L16.5276 22.6284C16.2635 23.3048 16.143 24.0279 16.1852 24.7528C16.2974 26.6778 16.5677 30.4723 16.9629 30.6225C17.3557 30.7719 20.1979 28.2067 21.6471 26.8649C22.2072 26.3463 22.6359 25.7059 22.9135 24.9949L23.4371 23.6543M16.9629 21.5138L23.9591 3.59898C24.662 1.7992 26.6586 0.838259 28.4646 1.52498V1.52498V1.52498C30.2223 2.19331 31.0361 4.19569 30.3521 5.94726L23.4371 23.6543M16.9629 21.5138C16.9629 21.5138 18.4027 21.2968 20.3888 21.9535C22.3749 22.6102 23.4371 23.6543 23.4371 23.6543"
+																stroke-width="2"
+																stroke-linecap="round"
+																stroke-linejoin="round"
+															></path>
+															<path
+																d="M3.36523 6.34619C3.36523 6.34619 2.23031 8.59933 2.23031 15.993C2.23031 23.3867 3.36523 25.6398 3.36523 25.6398"
+																stroke-width="2"
+																stroke-linecap="round"
+																stroke-linejoin="round"
+															></path>
+															<path
+																d="M6.20228 3.50928C6.20228 3.50928 7.62093 2.65809 12.3025 2.37436C16.984 2.09063 19.5376 2.65809 19.5376 2.65809"
+																stroke-width="2"
+																stroke-linecap="round"
+																stroke-linejoin="round"
+															></path>
+															<path
+																d="M6.20231 28.4785L12.1606 28.4785"
+																stroke-width="2"
+																stroke-linecap="round"
+																stroke-linejoin="round"
+															></path>
+															<path
+																d="M1.09521 3.79478C1.09521 5.20508 2.23849 6.34835 3.64879 6.34835C5.05908 6.34835 6.20236 5.20508 6.20236 3.79478C6.20236 2.38448 5.05908 1.24121 3.64879 1.24121C2.23849 1.24121 1.09521 2.38448 1.09521 3.79478Z"
+																fill-opacity="0.1"
+																stroke-width="2"
+																stroke-linecap="round"
+																stroke-linejoin="round"
+															></path>
+															<path
+																d="M1.09521 28.1952C1.09521 29.6055 2.23849 30.7487 3.64879 30.7487C5.05908 30.7487 6.20236 29.6055 6.20236 28.1952C6.20236 26.7849 5.05908 25.6416 3.64879 25.6416C2.23849 25.6416 1.09521 26.7849 1.09521 28.1952Z"
+																fill-opacity="0.1"
+																stroke-width="2"
+																stroke-linecap="round"
+																stroke-linejoin="round"
+															></path>
+														</svg>
+													</a>
+													<div class="tabtitle">AI Task</div>
+												</li>
+											</div>
+											<div class="item tabs">
+												<li class="tab-m">
+													<a data-toggle="tab" href="#menu6" class="icons"
+														><svg
+															width="32"
+															height="32"
+															viewBox="0 0 32 32"
+															fill="none"
+															xmlns="http://www.w3.org/2000/svg"
+														>
+															<path
+																d="M30.6032 15.8506C30.6032 19.1695 30.4585 21.8545 30.2724 23.9353C29.9626 27.4007 27.4023 29.9976 23.9358 30.2956C21.8948 30.4711 19.2307 30.6046 15.8492 30.6046C12.4676 30.6046 9.80354 30.4711 7.76255 30.2956C4.29608 29.9976 1.73578 27.4007 1.42593 23.9353C1.23989 21.8545 1.09521 19.1695 1.09521 15.8506C1.09521 12.6599 1.22894 10.055 1.40458 8.0097C1.71338 4.41382 4.41236 1.71484 8.00824 1.40604C10.0536 1.2304 12.6585 1.09668 15.8492 1.09668"
+																stroke-width="2"
+																stroke-linecap="round"
+																stroke-linejoin="round"
+															></path>
+															<path
+																d="M9.82514 15.5405C13.3924 17.9488 14.9206 20.0857 14.9206 20.0857C14.9206 20.0857 16.4583 16.585 19.4075 12.7251C22.5841 8.56757 24.9387 7.00165 24.9387 7.00165"
+																stroke-width="2"
+																stroke-linecap="round"
+																stroke-linejoin="round"
+															></path>
+														</svg>
+													</a>
+													<div class="tabtitle">Stockin</div>
+												</li>
+											</div>
+											<div class="item tabs">
+												<li class="tab-m">
+													<a data-toggle="tab" href="#menu7" class="icons"
+														><svg
+															width="33"
+															height="32"
+															viewBox="0 0 33 32"
+															fill="none"
+															xmlns="http://www.w3.org/2000/svg"
+														>
+															<path
+																d="M31.3414 16.15C31.3414 12.9593 31.2077 10.3543 31.0321 8.30902C30.7233 4.71314 28.0243 2.01416 24.4284 1.70536C22.3831 1.52972 19.7782 1.396 16.5875 1.396C13.3968 1.396 10.7918 1.52972 8.74652 1.70536C5.15064 2.01416 2.45166 4.71314 2.14286 8.30902C1.96722 10.3543 1.8335 12.9593 1.8335 16.15C1.8335 19.4688 1.97817 22.1538 2.16422 24.2346C2.47406 27.7 5.03436 30.2969 8.50083 30.5949C10.5418 30.7704 13.2059 30.9039 16.5875 30.9039C19.969 30.9039 22.6331 30.7704 24.6741 30.5949C28.1406 30.2969 30.7009 27.7 31.0107 24.2346C31.1968 22.1538 31.3414 19.4688 31.3414 16.15Z"
+																stroke-width="2"
+																stroke-linecap="round"
+																stroke-linejoin="round"
+															></path>
+															<path
+																d="M30.7738 9.625L24.3078 16.6083C23.9108 17.0371 23.3423 17.2652 22.759 17.2299L15.356 16.7812C14.7069 16.7419 14.081 17.0286 13.6869 17.5458L10.2461 22.0619C9.94527 22.4568 9.50519 22.722 9.01558 22.8036L2.96826 23.8115"
+																stroke-width="2"
+																stroke-linecap="round"
+																stroke-linejoin="round"
+															></path>
+															<path
+																d="M23.6807 17.002L31.3414 9.625L30.7739 27.2163L25.9505 30.621L8.07552 30.9047L4.1033 28.9186L2.11719 23.8115L9.7779 22.6766L14.885 16.7183L23.6807 17.002Z"
+																fill-opacity="0.1"
+															></path>
+														</svg>
+													</a>
+													<div class="tabtitle">TaskCollab</div>
+												</li>
+											</div>
+										</div>
+									</ul>
+								</div>
+							</div>
 
-            <div class="item tabs">
-              <li class="tab-m">
-                <a data-toggle="tab" href="#menu3" class="icons"
-                  ><svg
-                    width="32"
-                    height="32"
-                    viewBox="0 0 32 32"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M15.8492 25.435C23.9976 25.435 30.6031 20.0146 30.6031 13.3281C30.6031 6.64164 23.9976 1.22119 15.8492 1.22119C7.70079 1.22119 1.09521 6.64164 1.09521 13.3281C1.09521 16.4289 2.51579 19.2574 4.85203 21.3994C7.18828 23.5413 5.35117 30.7291 5.35117 30.7291L8.44736 27.8657C10.4359 26.0267 13.1406 25.435 15.8492 25.435Z"
-                      
-                      fill-opacity="0.1"
-                      
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></path>
-                    <path
-                      d="M10.1748 15.9771L16.9843 15.9771"
-                      
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></path>
-                    <path
-                      d="M10.1748 10.8687L22.0915 10.8687"
-                      
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></path>
-                  </svg>
-                </a>
-                <div class="tabtitle">Workorder</div>
-              </li>
-            </div>
-            <div class="item tabs">
-              <li class="tab-m">
-                <a data-toggle="tab" href="#menu4" class="icons"
-                  ><svg
-                    width="32"
-                    height="32"
-                    viewBox="0 0 32 32"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M28.6168 1.51904L30.8867 4.64007L23.7934 23.3663L16.9839 20.8127L24.9283 1.80277L28.6168 1.51904Z"
-                      
-                      fill-opacity="0.1"
-                    ></path>
-                    <path
-                      d="M21.6471 26.8649C20.1979 28.2067 17.3557 30.7719 16.9629 30.6225C16.5677 30.4723 16.2974 26.6778 16.1852 24.7528C16.143 24.0279 16.2635 23.3048 16.5276 22.6284L16.9629 21.5138L23.9591 3.59898C24.662 1.7992 26.6586 0.838259 28.4646 1.52498C30.2223 2.19331 31.0361 4.19569 30.3521 5.94727L23.4371 23.6543L22.9135 24.9949C22.6359 25.7059 22.2072 26.3463 21.6471 26.8649Z"
-                      
-                      fill-opacity="0.1"
-                    ></path>
-                    <path
-                      d="M16.9629 21.5138L16.5276 22.6284C16.2635 23.3048 16.143 24.0279 16.1852 24.7528C16.2974 26.6778 16.5677 30.4723 16.9629 30.6225C17.3557 30.7719 20.1979 28.2067 21.6471 26.8649C22.2072 26.3463 22.6359 25.7059 22.9135 24.9949L23.4371 23.6543M16.9629 21.5138L23.9591 3.59898C24.662 1.7992 26.6586 0.838259 28.4646 1.52498V1.52498V1.52498C30.2223 2.19331 31.0361 4.19569 30.3521 5.94726L23.4371 23.6543M16.9629 21.5138C16.9629 21.5138 18.4027 21.2968 20.3888 21.9535C22.3749 22.6102 23.4371 23.6543 23.4371 23.6543"
-                      
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></path>
-                    <path
-                      d="M3.36523 6.34619C3.36523 6.34619 2.23031 8.59933 2.23031 15.993C2.23031 23.3867 3.36523 25.6398 3.36523 25.6398"
-                      
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></path>
-                    <path
-                      d="M6.20228 3.50928C6.20228 3.50928 7.62093 2.65809 12.3025 2.37436C16.984 2.09063 19.5376 2.65809 19.5376 2.65809"
-                      
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></path>
-                    <path
-                      d="M6.20231 28.4785L12.1606 28.4785"
-                      
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></path>
-                    <path
-                      d="M1.09521 3.79478C1.09521 5.20508 2.23849 6.34835 3.64879 6.34835C5.05908 6.34835 6.20236 5.20508 6.20236 3.79478C6.20236 2.38448 5.05908 1.24121 3.64879 1.24121C2.23849 1.24121 1.09521 2.38448 1.09521 3.79478Z"
-                      
-                      fill-opacity="0.1"
-                      
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></path>
-                    <path
-                      d="M1.09521 28.1952C1.09521 29.6055 2.23849 30.7487 3.64879 30.7487C5.05908 30.7487 6.20236 29.6055 6.20236 28.1952C6.20236 26.7849 5.05908 25.6416 3.64879 25.6416C2.23849 25.6416 1.09521 26.7849 1.09521 28.1952Z"
-                      
-                      fill-opacity="0.1"
-                      
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></path>
-                  </svg>
-                </a>
-                <div class="tabtitle">AI Task</div>
-              </li>
-            </div>
-            <div class="item tabs">
-              <li class="tab-m">
-                <a data-toggle="tab" href="#menu6" class="icons"
-                  ><svg
-                    width="32"
-                    height="32"
-                    viewBox="0 0 32 32"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M30.6032 15.8506C30.6032 19.1695 30.4585 21.8545 30.2724 23.9353C29.9626 27.4007 27.4023 29.9976 23.9358 30.2956C21.8948 30.4711 19.2307 30.6046 15.8492 30.6046C12.4676 30.6046 9.80354 30.4711 7.76255 30.2956C4.29608 29.9976 1.73578 27.4007 1.42593 23.9353C1.23989 21.8545 1.09521 19.1695 1.09521 15.8506C1.09521 12.6599 1.22894 10.055 1.40458 8.0097C1.71338 4.41382 4.41236 1.71484 8.00824 1.40604C10.0536 1.2304 12.6585 1.09668 15.8492 1.09668"
-                      
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></path>
-                    <path
-                      d="M9.82514 15.5405C13.3924 17.9488 14.9206 20.0857 14.9206 20.0857C14.9206 20.0857 16.4583 16.585 19.4075 12.7251C22.5841 8.56757 24.9387 7.00165 24.9387 7.00165"
-                      
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></path>
-                  </svg>
-                </a>
-                <div class="tabtitle">Stockin</div>
-              </li>
-            </div>
-            <div class="item tabs">
-              <li class="tab-m">
-                <a data-toggle="tab" href="#menu7" class="icons"
-                  ><svg
-                    width="33"
-                    height="32"
-                    viewBox="0 0 33 32"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M31.3414 16.15C31.3414 12.9593 31.2077 10.3543 31.0321 8.30902C30.7233 4.71314 28.0243 2.01416 24.4284 1.70536C22.3831 1.52972 19.7782 1.396 16.5875 1.396C13.3968 1.396 10.7918 1.52972 8.74652 1.70536C5.15064 2.01416 2.45166 4.71314 2.14286 8.30902C1.96722 10.3543 1.8335 12.9593 1.8335 16.15C1.8335 19.4688 1.97817 22.1538 2.16422 24.2346C2.47406 27.7 5.03436 30.2969 8.50083 30.5949C10.5418 30.7704 13.2059 30.9039 16.5875 30.9039C19.969 30.9039 22.6331 30.7704 24.6741 30.5949C28.1406 30.2969 30.7009 27.7 31.0107 24.2346C31.1968 22.1538 31.3414 19.4688 31.3414 16.15Z"
-                      
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></path>
-                    <path
-                      d="M30.7738 9.625L24.3078 16.6083C23.9108 17.0371 23.3423 17.2652 22.759 17.2299L15.356 16.7812C14.7069 16.7419 14.081 17.0286 13.6869 17.5458L10.2461 22.0619C9.94527 22.4568 9.50519 22.722 9.01558 22.8036L2.96826 23.8115"
-                      
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></path>
-                    <path
-                      d="M23.6807 17.002L31.3414 9.625L30.7739 27.2163L25.9505 30.621L8.07552 30.9047L4.1033 28.9186L2.11719 23.8115L9.7779 22.6766L14.885 16.7183L23.6807 17.002Z"
-                      
-                      fill-opacity="0.1"
-                    ></path>
-                  </svg>
-                </a>
-                <div class="tabtitle">TaskCollab</div>
-              </li>
-            </div>
-           
-          </div>
-        </ul>
-      </div>
-            </div>
-       
-            <!-- <ul class="nav nav-pills mb-3 mt-5" id="pills-tab" role="tablist" data-aos="fade-up"
+							<!-- <ul class="nav nav-pills mb-3 mt-5" id="pills-tab" role="tablist" data-aos="fade-up"
             data-aos-delay="80"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out">
@@ -500,120 +539,190 @@
                 </button><span class="tab-text"> Lorem</span>
               </li>
             </ul> -->
-            <div class="tab-content mt-5" id="pills-tabContent" data-aos="fade-up"
-            data-aos-delay="100"
-            data-aos-duration="1500"
-            data-aos-easing="ease-in-out">
-              <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="pills-home-tab">
-                  
-                  <div class="row align-items-center">
-                      <div class="col-md-5 " style="text-align:left !important;">
-                          <h2>Lorem ipsum dolor sit amet, consectetur elit.</h2>
-                          <p class="mt-3" style="text-align:left !important;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent.</p>
-                      </div>
-                      <div class="col-md-6 offset-md-1">
-                          <div class="video-bg"></div>
-                      </div>
-                  </div>
-              </div>
-              <div class="tab-pane fade" id="menu2" role="tabpanel" aria-labelledby="pills-profile-tab">
-                 <div class="row align-items-center">
-                      <div class="col-md-5 " style="text-align:left !important;">
-                          <h2>Lorem ipsum dolor sit amet, consectetur elit.</h2>
-                          <p class="mt-3" style="text-align:left !important;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent.</p>
-                      </div>
-                      <div class="col-md-6 offset-md-1">
-                          <div class="video-bg"></div>
-                      </div>
-                  </div>
-              </div>
-              <div class="tab-pane fade" id="menu3" role="tabpanel" aria-labelledby="pills-contact1-tab">
-                 <div class="row align-items-center">
-                      <div class="col-md-5 " style="text-align:left !important;">
-                          <h2>Lorem ipsum dolor sit amet, consectetur elit.</h2>
-                          <p class="mt-3" style="text-align:left !important;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent.</p>
-                      </div>
-                      <div class="col-md-6 offset-md-1">
-                          <div class="video-bg"></div>
-                      </div>
-                  </div>
-              </div>
-              <div class="tab-pane fade" id="menu4" role="tabpanel" aria-labelledby="pills-contact1-tab">
-                  <div class="row align-items-center">
-                      <div class="col-md-5 " style="text-align:left !important;">
-                          <h2>Lorem ipsum dolor sit amet, consectetur elit.</h2>
-                          <p class="mt-3" style="text-align:left !important;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent.</p>
-                      </div>
-                      <div class="col-md-6 offset-md-1">
-                          <div class="video-bg"></div>
-                      </div>
-                  </div>
-              </div>
-              
-              <div class="tab-pane fade" id="menu6" role="tabpanel" aria-labelledby="pills-contact2-tab">
-                    <div class="row align-items-center">
-                      <div class="col-md-5 " style="text-align:left !important;">
-                          <h2>Lorem ipsum dolor sit amet, consectetur elit.</h2>
-                          <p class="mt-3" style="text-align:left !important;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent.</p>
-                      </div>
-                      <div class="col-md-6 offset-md-1">
-                          <div class="video-bg"></div>
-                      </div>
-                  </div>
-              </div>
-              <div class="tab-pane fade" id="menu7" role="tabpanel" aria-labelledby="pills-contact3-tab">
-               <div class="row align-items-center">
-                      <div class="col-md-5 " style="text-align:left !important;">
-                          <h2>Lorem ipsum dolor sit amet, consectetur elit.</h2>
-                          <p class="mt-3" style="text-align:left !important;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent.</p>
-                      </div>
-                      <div class="col-md-6 offset-md-1">
-                          <div class="video-bg"></div>
-                      </div>
-                  </div>
-              </div>
-              <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-                <div class="row align-items-center">
-                      <div class="col-md-5 " style="text-align:left !important;">
-                          <h2>Lorem ipsum dolor sit amet, consectetur elit.</h2>
-                          <p class="mt-3" style="text-align:left !important;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent.</p>
-                      </div>
-                      <div class="col-md-6 offset-md-1">
-                          <div class="video-bg"></div>
-                      </div>
-                  </div>
-              </div>
-            </div>
-            
+							<div
+								class="tab-content mt-5"
+								id="pills-tabContent"
+								data-aos="fade-up"
+								data-aos-delay="100"
+								data-aos-duration="1500"
+								data-aos-easing="ease-in-out"
+							>
+								<div
+									class="tab-pane fade show active"
+									id="home"
+									role="tabpanel"
+									aria-labelledby="pills-home-tab"
+								>
+									<div class="row align-items-center">
+										<div class="col-md-5" style="text-align: left !important">
+											<h2>Lorem ipsum dolor sit amet, consectetur elit.</h2>
+											<p class="mt-3" style="text-align: left !important">
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+												Nunc vulputate libero et velit interdum, ac aliquet odio
+												mattis. Class aptent taciti sociosqu ad litora torquent.
+											</p>
+										</div>
+										<div class="col-md-6 offset-md-1">
+											<div class="video-bg"></div>
+										</div>
+									</div>
+								</div>
+								<div
+									class="tab-pane fade"
+									id="menu2"
+									role="tabpanel"
+									aria-labelledby="pills-profile-tab"
+								>
+									<div class="row align-items-center">
+										<div class="col-md-5" style="text-align: left !important">
+											<h2>Lorem ipsum dolor sit amet, consectetur elit.</h2>
+											<p class="mt-3" style="text-align: left !important">
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+												Nunc vulputate libero et velit interdum, ac aliquet odio
+												mattis. Class aptent taciti sociosqu ad litora torquent.
+											</p>
+										</div>
+										<div class="col-md-6 offset-md-1">
+											<div class="video-bg"></div>
+										</div>
+									</div>
+								</div>
+								<div
+									class="tab-pane fade"
+									id="menu3"
+									role="tabpanel"
+									aria-labelledby="pills-contact1-tab"
+								>
+									<div class="row align-items-center">
+										<div class="col-md-5" style="text-align: left !important">
+											<h2>Lorem ipsum dolor sit amet, consectetur elit.</h2>
+											<p class="mt-3" style="text-align: left !important">
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+												Nunc vulputate libero et velit interdum, ac aliquet odio
+												mattis. Class aptent taciti sociosqu ad litora torquent.
+											</p>
+										</div>
+										<div class="col-md-6 offset-md-1">
+											<div class="video-bg"></div>
+										</div>
+									</div>
+								</div>
+								<div
+									class="tab-pane fade"
+									id="menu4"
+									role="tabpanel"
+									aria-labelledby="pills-contact1-tab"
+								>
+									<div class="row align-items-center">
+										<div class="col-md-5" style="text-align: left !important">
+											<h2>Lorem ipsum dolor sit amet, consectetur elit.</h2>
+											<p class="mt-3" style="text-align: left !important">
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+												Nunc vulputate libero et velit interdum, ac aliquet odio
+												mattis. Class aptent taciti sociosqu ad litora torquent.
+											</p>
+										</div>
+										<div class="col-md-6 offset-md-1">
+											<div class="video-bg"></div>
+										</div>
+									</div>
+								</div>
 
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  <!-- Section 05 Ended -->
+								<div
+									class="tab-pane fade"
+									id="menu6"
+									role="tabpanel"
+									aria-labelledby="pills-contact2-tab"
+								>
+									<div class="row align-items-center">
+										<div class="col-md-5" style="text-align: left !important">
+											<h2>Lorem ipsum dolor sit amet, consectetur elit.</h2>
+											<p class="mt-3" style="text-align: left !important">
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+												Nunc vulputate libero et velit interdum, ac aliquet odio
+												mattis. Class aptent taciti sociosqu ad litora torquent.
+											</p>
+										</div>
+										<div class="col-md-6 offset-md-1">
+											<div class="video-bg"></div>
+										</div>
+									</div>
+								</div>
+								<div
+									class="tab-pane fade"
+									id="menu7"
+									role="tabpanel"
+									aria-labelledby="pills-contact3-tab"
+								>
+									<div class="row align-items-center">
+										<div class="col-md-5" style="text-align: left !important">
+											<h2>Lorem ipsum dolor sit amet, consectetur elit.</h2>
+											<p class="mt-3" style="text-align: left !important">
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+												Nunc vulputate libero et velit interdum, ac aliquet odio
+												mattis. Class aptent taciti sociosqu ad litora torquent.
+											</p>
+										</div>
+										<div class="col-md-6 offset-md-1">
+											<div class="video-bg"></div>
+										</div>
+									</div>
+								</div>
+								<div
+									class="tab-pane fade"
+									id="pills-contact"
+									role="tabpanel"
+									aria-labelledby="pills-contact-tab"
+								>
+									<div class="row align-items-center">
+										<div class="col-md-5" style="text-align: left !important">
+											<h2>Lorem ipsum dolor sit amet, consectetur elit.</h2>
+											<p class="mt-3" style="text-align: left !important">
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+												Nunc vulputate libero et velit interdum, ac aliquet odio
+												mattis. Class aptent taciti sociosqu ad litora torquent.
+											</p>
+										</div>
+										<div class="col-md-6 offset-md-1">
+											<div class="video-bg"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Section 05 Ended -->
 
-<!-- Sec-03 -->
-<section class="optiwise-sec03 pt-100">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-md-6">
-        <div class="sub-header1">
-          <h6>LOREM IPSUM DOLOR</h6>
-          <h2 class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</h2>
-              </div>
-      </div>
+		<!-- Sec-03 -->
+		<section class="optiwise-sec03 pt-100">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-md-6">
+						<div class="sub-header1">
+							<h6>LOREM IPSUM DOLOR</h6>
+							<h2 class="mt-4">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+								vulputate libero et velit interdum, ac aliquet odio mattis.
+							</h2>
+						</div>
+					</div>
 
-      <div class="col-md-5 offset-md-1">
-        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.”</p>
-        <button class="book-grey">Book A Free Demo</button>
-      </div>
-    </div>
-  </div>
-</section>
+					<div class="col-md-5 offset-md-1">
+						<p>
+							“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+							vulputate libero et velit interdum, ac aliquet odio mattis.”
+						</p>
+						<button class="book-grey">Book A Free Demo</button>
+					</div>
+				</div>
+			</div>
+		</section>
 
-<!-- Sec 04 -->
-<!-- <section class="nav-pills-section pt-100 mt-100">
+		<!-- Sec 04 -->
+		<!-- <section class="nav-pills-section pt-100 mt-100">
   <div class="container">
   <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
     <li class="nav-item" role="presentation">
@@ -634,487 +743,565 @@
 </div>
 </section> -->
 
-<!-- Sec-05 -->
-<section class="optiwise-sec05 pt-100 pb-100 mt-5 ">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="sec05-div text-center">
-          <h2>Teams large and small rely on Slack</h2>
-          <p class="mt-3">Slack securely scales up to support collaboration at the world’s biggest companies.</p>
+		<!-- Sec-05 -->
+		<section class="optiwise-sec05 pt-100 pb-100 mt-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="sec05-div text-center">
+							<h2>Teams large and small rely on Slack</h2>
+							<p class="mt-3">
+								Slack securely scales up to support collaboration at the world’s
+								biggest companies.
+							</p>
 
-          <div class="btn-div mt-5 d-flex align-items-center justify-content-center mb-5">
-            <button class="btn1">MEET SLACK FOR ENTERPRISE</button>
-            <button class="btn2">TALK TO SALES</button>
-          </div>
-        </div>
-          <div class="optiwise-stats mt-5 ">
-            <div class="row">
-              <div class="col-md-3 offset-md-1">
-                <h2>85%</h2>
-                <p>of users say that Slack has<br> improved communication*</p>
-              </div>
+							<div
+								class="btn-div mt-5 d-flex align-items-center justify-content-center mb-5"
+							>
+								<button class="btn1">MEET SLACK FOR ENTERPRISE</button>
+								<button class="btn2">TALK TO SALES</button>
+							</div>
+						</div>
+						<div class="optiwise-stats mt-5">
+							<div class="row">
+								<div class="col-md-3 offset-md-1">
+									<h2>85%</h2>
+									<p>
+										of users say that Slack has<br />
+										improved communication*
+									</p>
+								</div>
 
-              <div class="col-md-3 offset-md-1">
-                <h2>86%</h2>
-                <p>feel that their ability to<br> work remotely has improved*</p>
-              </div>
+								<div class="col-md-3 offset-md-1">
+									<h2>86%</h2>
+									<p>
+										feel that their ability to<br />
+										work remotely has improved*
+									</p>
+								</div>
 
-              <div class="col-md-3 offset-md-1">
-                <h2>88%</h2>
-                <p>feel more connected to their<br> teams*</p>
-              </div>
-            </div>
-          </div>
+								<div class="col-md-3 offset-md-1">
+									<h2>88%</h2>
+									<p>
+										feel more connected to their<br />
+										teams*
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-        
-      </div>
-    </div>
-  </div>
-</section>
+		<!-- Footer -->
+		<div class="container pb-50">
+			<section class="kamaai-klub-footer">
+				<h2>Unify your team’s work with jira</h2>
+				<button class="footer-btn">
+					<a class="footer-text"> Book Free Demo</a>
+				</button>
+				<img src="images/optiwise.png" class="optiwise" />
+			</section>
+		</div>
 
-<!-- Footer -->
-<div class="container pb-50">
-    <section class="kamaai-klub-footer">
-  <h2>Unify your team’s work with jira</h2>
-  <button class="footer-btn"><a class="footer-text"> Book Free Demo</a></button>
-  <img src="images/optiwise.png" class="optiwise">
-</section>
+		<!--Footer-->
+		<section class="footer-sec pt-100">
+			<!--<div class="half-footer">-->
+			<!--    <div class="container">-->
+			<!--        <div class="row m-auto">-->
+			<!--            <div class="col-md-12 hal-12">-->
+			<!--                <h2 class="half-text-h2">Lorem ipsum dolor sit amet consectetur</h2>-->
 
-</div>
+			<!--                <p class="half-footer-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>-->
 
+			<!--                <div class="gradient-btn1 me-3">-->
+			<!--              <a href="#">Get Started </a>-->
 
- <!--Footer-->
-  <section class="footer-sec pt-100">
-      <!--<div class="half-footer">-->
-      <!--    <div class="container">-->
-      <!--        <div class="row m-auto">-->
-      <!--            <div class="col-md-12 hal-12">-->
-      <!--                <h2 class="half-text-h2">Lorem ipsum dolor sit amet consectetur</h2>-->
-                      
-      <!--                <p class="half-footer-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>-->
-                      
-      <!--                <div class="gradient-btn1 me-3">-->
-      <!--              <a href="#">Get Started </a>-->
-                    
-      <!--              </div>-->
-      <!--            </div>-->
-      <!--        </div>-->
-      <!--    </div>-->
-      <!--</div>-->
-      <div class="main-footer pt-47 pb-78">
-          <div class="container-fluid">
-          <div class="row align-items-center mb-5 footer-row-1">
-              <div class="col-md-4 pb-4">
-                  <div class="footer-vector-div">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="footer-vectors" viewBox="0 0 32 32"><path fill="currentColor" d="M21 30a8 8 0 1 1 8-8a8 8 0 0 1-8 8m0-14a6 6 0 1 0 6 6a6 6 0 0 0-6-6"/><path fill="currentColor" d="M22.59 25L20 22.41V18h2v3.59l2 2z"/><path fill="currentColor" d="M28 6a2 2 0 0 0-2-2h-4V2h-2v2h-8V2h-2v2H6a2 2 0 0 0-2 2v20a2 2 0 0 0 2 2h4v-2H6V6h4v2h2V6h8v2h2V6h4v6h2Z"/></svg>
-                  <p>Schedule a quick consultation</p>
-                  </div>
-              </div>
-              
-              <div class="col-md-4 pb-4">
-                  <div class="footer-vector-div">
-                  <img src="./images/footer-v2.png" class="footer-vector">
-                  <p>Production processes optimize by experts </p>
-                  </div>
-              </div>
-              
-               <div class="col-md-4 pb-4">
-                  <div class="footer-vector-div">
-                  <img src="./images/footer-v3.png" class="footer-vector">
-                  <p>Transform factory with AICAN's sensors </p>
-                  </div>
-              </div>
-          </div>
-          </div>
-          <div class="container-fluid">
-              <div class="row">
-                  <div class="col-md-5">
-                      <form class="subscribe_form">
-            <div class="input-group">
-               <input type="text" class="form-control footer-input" name="email" placeholder="Divya@abc.com">
-               
-               <span class="input-group-btn form-border">
-                    <button class="btn form-btn" type="button">Contact Sales</button>
-               </span>
-            </div>
-          </form>
-                  </div>
-                  
-              </div>
-          </div>
-         <div class="container-fluid">
-             <img src="images/Frame.png" class="pt-4 footer-logo">
-             <div class="row">
-                 <div class="col-md-4">
-                     <!--<h1 class="footer-logo">AICAN</h1>-->
-                     <ul>
-                         <li class="footer-li">
-                          <div class="footer-icon1">
-                              <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32"><path fill="white" d="M16 18a5 5 0 1 1 5-5a5.006 5.006 0 0 1-5 5m0-8a3 3 0 1 0 3 3a3.003 3.003 0 0 0-3-3"/><path fill="white" d="m16 30l-8.436-9.949a35.076 35.076 0 0 1-.348-.451A10.889 10.889 0 0 1 5 13a11 11 0 0 1 22 0a10.884 10.884 0 0 1-2.215 6.597l-.001.003s-.3.394-.345.447ZM8.813 18.395s.233.308.286.374L16 26.908l6.91-8.15c.044-.055.278-.365.279-.366A8.901 8.901 0 0 0 25 13a9 9 0 1 0-18 0a8.905 8.905 0 0 0 1.813 5.395"/></svg>
-                              </div>
-                          <a class="text-white" href="">
-                              8th Floor, Zone Startup India, Bombay Stock Exchange, PJ Towers, Dalal Street-400001</a>
-                          </li>
-                         <li class="footer-li">
-                          <!--<div class="fa fa-phone text-white footer-icon"></div>-->
-                          <div class="footer-icon">
-                              <!--<img src="images/Group.png" class="footer-icon">-->
-                              <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 36 36"><path fill="white" d="M32 6H4a2 2 0 0 0-2 2v20a2 2 0 0 0 2 2h28a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2m-1.54 22H5.66l7-7.24l-1.44-1.39L4 26.84V9.52l12.43 12.37a2 2 0 0 0 2.82 0L32 9.21v17.5l-7.36-7.36l-1.41 1.41ZM5.31 8h25.07L17.84 20.47Z" class="clr-i-outline clr-i-outline-path-1"/><path fill="none" d="M0 0h36v36H0z"/></svg>
-                          </div>
-                          <a class="text-white"href="mailto:work@aican.co.in">work@aican.co.in</a>
-                          </li>
-                         <li class="footer-li">
-                          <!--<div class="fa fa-phone text-white footer-icon"></div>-->
-                          <div class="footer-icon">
-                              <!--<img src="images/phone.png" class="footer-icon">-->
-                              <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="white" d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24c1.12.37 2.33.57 3.57.57c.55 0 1 .45 1 1V20c0 .55-.45 1-1 1c-9.39 0-17-7.61-17-17c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1c0 1.25.2 2.45.57 3.57c.11.35.03.74-.25 1.02z"/></svg>
-                          </div>
-                          <a class="text-white"href="tel:+91 7709792975">+91 7709792975</a>
-                          </li>
-                          
-                     </ul>
-                 </div>
-                 <div class="col-md-6 footer-md-6">
-                     <a href="#" class="text-white">About Us </a>
-                     <a href="#" class="text-white">Features</a>
-                     <a href="#" class="text-white">Industries</a>
-                     <a href="#" class="text-white">Resources</a>
-                </div>
-                <div class="col-md-2 footer-md-2">
-                    <a href="https://www.linkedin.com/company/ai-can-co-in/">
-                        <img src="images/linkedin (1).png" class="right-icon">
-                    </a>
-                    <a href="https://www.instagram.com/aican.co.in?igsh=M2tpb3B1aDNoZ20w"><img src="images/social.png" class="right-icon1"> </a>
-                    
-                    </div>
-              </div>
-         </div>
-      </div>
-  </section>
- <!---->
-  <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title modal-head" id="exampleModalLabel">Book Free Demo</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-         
-  <div class="mb-3 row">
-    <label for="name" class="col-sm-6 col-form-label">Full Name</label>
-    <div class="col-sm-6">
-      <input type="text" class="form-control" id="name">
-    </div>
-  </div>
-  
-   <div class="mb-3 row">
-    <label for="email" class="col-sm-6 col-form-label">Email ID</label>
-    <div class="col-sm-6">
-      <input type="text" class="form-control" id="email">
-    </div>
-  </div>
-  
-  <div class="mb-3 row">
-    <label for="company" class="col-sm-6 col-form-label">Company Name</label>
-    <div class="col-sm-6">
-      <input type="text" class="form-control" id="company">
-    </div>
-  </div>
-  
-  <div class="mb-3 row">
-    <label for="mobile" class="col-sm-6 col-form-label">Mobile Number</label>
-    <div class="col-sm-6">
-      <input type="text" class="form-control" id="mobile">
-    </div>
-  </div>
-  
-  
-      </div>
-      <div class="modal-footer text-center">
-        <div class="gradient-btn">
-        <button type="button" class="btn">Save changes</button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-  
-  <script
-  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="https://bittersmann.de/lib/backlink/backlink.js"></script>
-   
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
-    <script src="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-   <script>
-   
-//     function injectStyles(rule)
-// {
-//   var div = $("<div />", {
-//     html: '&shy;<style>' + rule + '</style>'
-//   }).appendTo("body");
-// }
+			<!--              </div>-->
+			<!--            </div>-->
+			<!--        </div>-->
+			<!--    </div>-->
+			<!--</div>-->
+			<div class="main-footer pt-47 pb-78">
+				<div class="container-fluid">
+					<div class="row align-items-center mb-5 footer-row-1">
+						<div class="col-md-4 pb-4">
+							<div class="footer-vector-div">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									class="footer-vectors"
+									viewBox="0 0 32 32"
+								>
+									<path
+										fill="currentColor"
+										d="M21 30a8 8 0 1 1 8-8a8 8 0 0 1-8 8m0-14a6 6 0 1 0 6 6a6 6 0 0 0-6-6"
+									/>
+									<path
+										fill="currentColor"
+										d="M22.59 25L20 22.41V18h2v3.59l2 2z"
+									/>
+									<path
+										fill="currentColor"
+										d="M28 6a2 2 0 0 0-2-2h-4V2h-2v2h-8V2h-2v2H6a2 2 0 0 0-2 2v20a2 2 0 0 0 2 2h4v-2H6V6h4v2h2V6h8v2h2V6h4v6h2Z"
+									/>
+								</svg>
+								<p>Schedule a quick consultation</p>
+							</div>
+						</div>
 
-// var slide_dwell_time = 4000;
-// var percent = 0;
-// var transition_time = slide_dwell_time / 1000;
+						<div class="col-md-4 pb-4">
+							<div class="footer-vector-div">
+								<img src="./images/footer-v2.png" class="footer-vector" />
+								<p>Production processes optimize by experts</p>
+							</div>
+						</div>
 
+						<div class="col-md-4 pb-4">
+							<div class="footer-vector-div">
+								<img src="./images/footer-v3.png" class="footer-vector" />
+								<p>Transform factory with AICAN's sensors</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-5">
+							<form class="subscribe_form">
+								<div class="input-group">
+									<input
+										type="text"
+										class="form-control footer-input"
+										name="email"
+										placeholder="Divya@abc.com"
+									/>
 
-// injectStyles('.progress-bar {transition: width ' + transition_time +'s ease-in }');
+									<span class="input-group-btn form-border">
+										<button class="btn form-btn" type="button">
+											Contact Sales
+										</button>
+									</span>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="container-fluid">
+					<img src="images/Frame.png" class="pt-4 footer-logo" />
+					<div class="row">
+						<div class="col-md-4">
+							<!--<h1 class="footer-logo">AICAN</h1>-->
+							<ul>
+								<li class="footer-li">
+									<div class="footer-icon1">
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											width="1em"
+											height="1em"
+											viewBox="0 0 32 32"
+										>
+											<path
+												fill="white"
+												d="M16 18a5 5 0 1 1 5-5a5.006 5.006 0 0 1-5 5m0-8a3 3 0 1 0 3 3a3.003 3.003 0 0 0-3-3"
+											/>
+											<path
+												fill="white"
+												d="m16 30l-8.436-9.949a35.076 35.076 0 0 1-.348-.451A10.889 10.889 0 0 1 5 13a11 11 0 0 1 22 0a10.884 10.884 0 0 1-2.215 6.597l-.001.003s-.3.394-.345.447ZM8.813 18.395s.233.308.286.374L16 26.908l6.91-8.15c.044-.055.278-.365.279-.366A8.901 8.901 0 0 0 25 13a9 9 0 1 0-18 0a8.905 8.905 0 0 0 1.813 5.395"
+											/>
+										</svg>
+									</div>
+									<a class="text-white" href="">
+										8th Floor, Zone Startup India, Bombay Stock Exchange, PJ
+										Towers, Dalal Street-400001</a
+									>
+								</li>
+								<li class="footer-li">
+									<!--<div class="fa fa-phone text-white footer-icon"></div>-->
+									<div class="footer-icon">
+										<!--<img src="images/Group.png" class="footer-icon">-->
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											width="1em"
+											height="1em"
+											viewBox="0 0 36 36"
+										>
+											<path
+												fill="white"
+												d="M32 6H4a2 2 0 0 0-2 2v20a2 2 0 0 0 2 2h28a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2m-1.54 22H5.66l7-7.24l-1.44-1.39L4 26.84V9.52l12.43 12.37a2 2 0 0 0 2.82 0L32 9.21v17.5l-7.36-7.36l-1.41 1.41ZM5.31 8h25.07L17.84 20.47Z"
+												class="clr-i-outline clr-i-outline-path-1"
+											/>
+											<path fill="none" d="M0 0h36v36H0z" />
+										</svg>
+									</div>
+									<a class="text-white" href="mailto:work@aican.co.in"
+										>work@aican.co.in</a
+									>
+								</li>
+								<li class="footer-li">
+									<!--<div class="fa fa-phone text-white footer-icon"></div>-->
+									<div class="footer-icon">
+										<!--<img src="images/phone.png" class="footer-icon">-->
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											width="1em"
+											height="1em"
+											viewBox="0 0 24 24"
+										>
+											<path
+												fill="white"
+												d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24c1.12.37 2.33.57 3.57.57c.55 0 1 .45 1 1V20c0 .55-.45 1-1 1c-9.39 0-17-7.61-17-17c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1c0 1.25.2 2.45.57 3.57c.11.35.03.74-.25 1.02z"
+											/>
+										</svg>
+									</div>
+									<a class="text-white" href="tel:+91 7709792975"
+										>+91 7709792975</a
+									>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-6 footer-md-6">
+							<a href="#" class="text-white">About Us </a>
+							<a href="#" class="text-white">Features</a>
+							<a href="#" class="text-white">Industries</a>
+							<a href="#" class="text-white">Resources</a>
+						</div>
+						<div class="col-md-2 footer-md-2">
+							<a href="https://www.linkedin.com/company/ai-can-co-in/">
+								<img src="images/linkedin (1).png" class="right-icon" />
+							</a>
+							<a
+								href="https://www.instagram.com/aican.co.in?igsh=M2tpb3B1aDNoZ20w"
+								><img src="images/social.png" class="right-icon1" />
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!---->
+		<!-- Modal -->
+		<div
+			class="modal fade"
+			id="exampleModal"
+			tabindex="-1"
+			aria-labelledby="exampleModalLabel"
+			aria-hidden="true"
+		>
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title modal-head" id="exampleModalLabel">
+							Book Free Demo
+						</h5>
+						<button
+							type="button"
+							class="btn-close"
+							data-bs-dismiss="modal"
+							aria-label="Close"
+						></button>
+					</div>
+					<div class="modal-body">
+						<div class="mb-3 row">
+							<label for="name" class="col-sm-6 col-form-label"
+								>Full Name</label
+							>
+							<div class="col-sm-6">
+								<input type="text" class="form-control" id="name" />
+							</div>
+						</div>
 
-// $( ".card" ).eq( 0 ).find(".progress-bar").addClass("animate-bar");
+						<div class="mb-3 row">
+							<label for="email" class="col-sm-6 col-form-label"
+								>Email ID</label
+							>
+							<div class="col-sm-6">
+								<input type="text" class="form-control" id="email" />
+							</div>
+						</div>
 
-// $('.carousel').carousel({
-//   interval: slide_dwell_time
-// });
+						<div class="mb-3 row">
+							<label for="company" class="col-sm-6 col-form-label"
+								>Company Name</label
+							>
+							<div class="col-sm-6">
+								<input type="text" class="form-control" id="company" />
+							</div>
+						</div>
 
-// $('#carouselExampleCaptions').on('slide.bs.carousel', function (e) {
-//   $('#carousel-from').html( e.from );
-//   $('#carousel-to').html( e.to );
-  
-//   $( ".collapse" ).eq( e.from ).collapse('hide');
-  
-//   $( ".card" ).eq( e.from ).find(".progress-bar").removeClass("animate-bar");
-  
-//   $( ".card" ).eq( e.to ).find(".progress-bar").addClass("animate-bar");
+						<div class="mb-3 row">
+							<label for="mobile" class="col-sm-6 col-form-label"
+								>Mobile Number</label
+							>
+							<div class="col-sm-6">
+								<input type="text" class="form-control" id="mobile" />
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer text-center">
+						<div class="gradient-btn">
+							<button type="button" class="btn">Save changes</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-// });
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+		<!-- Option 1: Bootstrap Bundle with Popper -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+			crossorigin="anonymous"
+		></script>
+		<script src="https://bittersmann.de/lib/backlink/backlink.js"></script>
 
-// $('#carouselExampleCaptions').on('slid.bs.carousel', function (e) {
-//   $( ".collapse" ).eq( e.to ).collapse('show');
-  
-// });
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
+		<script src="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
+		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+		<script>
+			//     function injectStyles(rule)
+			// {
+			//   var div = $("<div />", {
+			//     html: '&shy;<style>' + rule + '</style>'
+			//   }).appendTo("body");
+			// }
 
+			// var slide_dwell_time = 4000;
+			// var percent = 0;
+			// var transition_time = slide_dwell_time / 1000;
 
-// $('.collapse').collapse({
-//   toggle: false
-// })
+			// injectStyles('.progress-bar {transition: width ' + transition_time +'s ease-in }');
 
- $(document).ready(function () {
-      var currentSlide = 0;
-      var slide_dwell_time = 3000;
-      var autoPlayInterval;
-      $(".progress-bar" + currentSlide).addClass("animate-bar");
-      function showNextSlide() {
-        var totalSlides = $(".card").length;
-        var nextSlide = (currentSlide + 1) % totalSlides;
-        $(".collapse[data-slide-to='" + currentSlide + "']").collapse('hide');
-        $(".progress-bar" + currentSlide).removeClass("animate-bar");
-        $(".progress-bar" + nextSlide).addClass("animate-bar");
-        $(".collapse[data-slide-to='" + nextSlide + "']").collapse('show');
-        currentSlide = nextSlide;
-      }
+			// $( ".card" ).eq( 0 ).find(".progress-bar").addClass("animate-bar");
 
-      function startAutoPlay() {
-        autoPlayInterval = setInterval(showNextSlide, slide_dwell_time);
-      }
+			// $('.carousel').carousel({
+			//   interval: slide_dwell_time
+			// });
 
-      function stopAutoPlay() {
-        clearInterval(autoPlayInterval);
-      }
+			// $('#carouselExampleCaptions').on('slide.bs.carousel', function (e) {
+			//   $('#carousel-from').html( e.from );
+			//   $('#carousel-to').html( e.to );
 
-      startAutoPlay();
+			//   $( ".collapse" ).eq( e.from ).collapse('hide');
 
-      $('.accordion').on('hide.bs.collapse', function () {
-        startAutoPlay();
-      });
+			//   $( ".card" ).eq( e.from ).find(".progress-bar").removeClass("animate-bar");
 
-      $('.accordion').on('show.bs.collapse', function () {
-        stopAutoPlay();
-      });
+			//   $( ".card" ).eq( e.to ).find(".progress-bar").addClass("animate-bar");
 
+			// });
 
-      $('.main-video').on('pause', function () {
-        startAutoPlay();
-      });
+			// $('#carouselExampleCaptions').on('slid.bs.carousel', function (e) {
+			//   $( ".collapse" ).eq( e.to ).collapse('show');
 
+			// });
 
-      $('.main-video').on('play', function () {
-        stopAutoPlay();
-      });
-    });
-   </script>
-   
-<script>
-  jQuery(document).ready(function($) {
-    $('.slick.marquee_rtl').slick({
-      speed: 8000,
-      autoplay: true,
-      autoplaySpeed: 0,
-      centerMode: false,
-      cssEase: 'linear',
-      draggable:false,
-      focusOnSelect:false,
-      pauseOnFocus:false,
-      pauseOnHover:false,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      variableWidth: true,
-      infinite: true,
-      initialSlide: 1,
-      arrows: false,
-      buttons: false,
-      loop:true,
-      rtl:true
-    });
-  });
-  </script>
+			// $('.collapse').collapse({
+			//   toggle: false
+			// })
 
-     <script>
-      jQuery(document).ready(function($) {
-  $('.slick.marqueea').slick({
-    speed: 8000,
-    autoplay: true,
-    autoplaySpeed: 0,
-    centerMode: false,
-    cssEase: 'linear',
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    variableWidth: true,
-    infinite: true,
-    initialSlide: 1,
-    arrows: false,
-    loop:true,
-    buttons: false
-  });
-});
-    </script>
-    <script>
-      // animate on scroll
-      AOS.init({
-        once: true,
-      });
-    </script>
-    <script>
-      $(function() {
-  // Owl Carousel
-  var owl = $(".owl-carousel");
-  owl.owlCarousel({
-    items: 1,
-    margin: 10,
-    loop: true,
-    nav: true
-  });
-});
-    </script>
+			$(document).ready(function () {
+				var currentSlide = 0;
+				var slide_dwell_time = 3000;
+				var autoPlayInterval;
+				$('.progress-bar' + currentSlide).addClass('animate-bar');
+				function showNextSlide() {
+					var totalSlides = $('.card').length;
+					var nextSlide = (currentSlide + 1) % totalSlides;
+					$(".collapse[data-slide-to='" + currentSlide + "']").collapse('hide');
+					$('.progress-bar' + currentSlide).removeClass('animate-bar');
+					$('.progress-bar' + nextSlide).addClass('animate-bar');
+					$(".collapse[data-slide-to='" + nextSlide + "']").collapse('show');
+					currentSlide = nextSlide;
+				}
 
-    <script>
-      const videoElement = document.querySelector('video');
-const playPauseButton = document.querySelector('button');
+				function startAutoPlay() {
+					autoPlayInterval = setInterval(showNextSlide, slide_dwell_time);
+				}
 
-playPauseButton.addEventListener('click', () => {
-	playPauseButton.classList.toggle('playing');
-	if (playPauseButton.classList.contains('playing')) {
-		videoElement.play();
-	}
-	else {
-		videoElement.pause();
-	}
-});
+				function stopAutoPlay() {
+					clearInterval(autoPlayInterval);
+				}
 
-videoElement.addEventListener('ended', () => {
-	playPauseButton.classList.remove('playing');
-});
+				startAutoPlay();
 
-    </script>
+				$('.accordion').on('hide.bs.collapse', function () {
+					startAutoPlay();
+				});
 
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+				$('.accordion').on('show.bs.collapse', function () {
+					stopAutoPlay();
+				});
 
-      <script>
-      var $owl = $(".owl-carousel1");
+				$('.main-video').on('pause', function () {
+					startAutoPlay();
+				});
 
-      $owl.children().each(function (index) {
-        $(this).attr("data-position", index); // NB: .attr() instead of .data()
-      });
+				$('.main-video').on('play', function () {
+					stopAutoPlay();
+				});
+			});
+		</script>
 
-      $owl.owlCarousel({
-        center: true,
-        loop: true,
-        items: 5,
-      });
+		<script>
+			jQuery(document).ready(function ($) {
+				$('.slick.marquee_rtl').slick({
+					speed: 8000,
+					autoplay: true,
+					autoplaySpeed: 0,
+					centerMode: false,
+					cssEase: 'linear',
+					draggable: false,
+					focusOnSelect: false,
+					pauseOnFocus: false,
+					pauseOnHover: false,
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					variableWidth: true,
+					infinite: true,
+					initialSlide: 1,
+					arrows: false,
+					buttons: false,
+					loop: true,
+					rtl: true,
+				});
+			});
+		</script>
 
-      $(document).on("click", ".owl-item>div", function () {
-        // see https://owlcarousel2.github.io/OwlCarousel2/docs/api-events.html#to-owl-carousel
-        var $speed = 300; // in ms
-        $owl.trigger("to.owl.carousel", [$(this).data("position"), $speed]);
-      });
+		<script>
+			jQuery(document).ready(function ($) {
+				$('.slick.marqueea').slick({
+					speed: 8000,
+					autoplay: true,
+					autoplaySpeed: 0,
+					centerMode: false,
+					cssEase: 'linear',
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					variableWidth: true,
+					infinite: true,
+					initialSlide: 1,
+					arrows: false,
+					loop: true,
+					buttons: false,
+				});
+			});
+		</script>
+		<script>
+			// animate on scroll
+			AOS.init({
+				once: true,
+			});
+		</script>
+		<script>
+			$(function () {
+				// Owl Carousel
+				var owl = $('.owl-carousel');
+				owl.owlCarousel({
+					items: 1,
+					margin: 10,
+					loop: true,
+					nav: true,
+				});
+			});
+		</script>
 
-      $(document).ready(function () {
-        var li = $(".owl-item li ");
-        $(".owl-item li").click(function () {
-          li.removeClass("active");
-        });
-      });
+		<script>
+			const videoElement = document.querySelector('video');
+			const playPauseButton = document.querySelector('button');
 
-      // $(' .owl_1').owlCarousel({
-      //     loop:true,
-      //     margin:2,
-      // 	responsiveClass:true,
-      // 	autoplay:true,
-      // 	 slideSpeed: 400,
-      //       paginationSpeed: 400,
-      // 	 autoplayTimeout:3000,
-      //     responsive:{
-      //         0:{
-      //             items:3,
-      //             nav:false,
-      // 			  loop:false
-      //         },
-      //         600:{
-      //             items:3,
-      //             nav:false,
-      // 			  loop:false
-      //         },
-      //         1000:{
-      //             items:3,
-      //             nav:false,
-      //             loop:false
-      //         }
-      //     }
-      // })
+			playPauseButton.addEventListener('click', () => {
+				playPauseButton.classList.toggle('playing');
+				if (playPauseButton.classList.contains('playing')) {
+					videoElement.play();
+				} else {
+					videoElement.pause();
+				}
+			});
 
-      // $(document) .ready(function(){
-      // var li =  $(".owl-item li ");
-      // $(".owl-item li").click(function(){
-      // li.removeClass('active');
-      // });
-      // });
-    </script>
-    
-    
-    <script>
-            const navLinks = document.querySelectorAll('.nav-link');
-            navLinks.forEach(link => {
-                link.addEventListener('click', function() {
-                    navLinks.forEach(navLink => {
-                        navLink.classList.remove('active');
-                    });
-                    this.classList.add('active');
-                });
-            });
-       </script>
-    
-    
-    
-    
-    
-    
- 
-    
-    
-    
-    
-    
-    
-   </body>
+			videoElement.addEventListener('ended', () => {
+				playPauseButton.classList.remove('playing');
+			});
+		</script>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+		<script>
+			var $owl = $('.owl-carousel1');
+
+			$owl.children().each(function (index) {
+				$(this).attr('data-position', index); // NB: .attr() instead of .data()
+			});
+
+			$owl.owlCarousel({
+				center: true,
+				loop: true,
+				items: 5,
+			});
+
+			$(document).on('click', '.owl-item>div', function () {
+				// see https://owlcarousel2.github.io/OwlCarousel2/docs/api-events.html#to-owl-carousel
+				var $speed = 300; // in ms
+				$owl.trigger('to.owl.carousel', [$(this).data('position'), $speed]);
+			});
+
+			$(document).ready(function () {
+				var li = $('.owl-item li ');
+				$('.owl-item li').click(function () {
+					li.removeClass('active');
+				});
+			});
+
+			// $(' .owl_1').owlCarousel({
+			//     loop:true,
+			//     margin:2,
+			// 	responsiveClass:true,
+			// 	autoplay:true,
+			// 	 slideSpeed: 400,
+			//       paginationSpeed: 400,
+			// 	 autoplayTimeout:3000,
+			//     responsive:{
+			//         0:{
+			//             items:3,
+			//             nav:false,
+			// 			  loop:false
+			//         },
+			//         600:{
+			//             items:3,
+			//             nav:false,
+			// 			  loop:false
+			//         },
+			//         1000:{
+			//             items:3,
+			//             nav:false,
+			//             loop:false
+			//         }
+			//     }
+			// })
+
+			// $(document) .ready(function(){
+			// var li =  $(".owl-item li ");
+			// $(".owl-item li").click(function(){
+			// li.removeClass('active');
+			// });
+			// });
+		</script>
+
+		<script>
+			const navLinks = document.querySelectorAll('.nav-link');
+			navLinks.forEach((link) => {
+				link.addEventListener('click', function () {
+					navLinks.forEach((navLink) => {
+						navLink.classList.remove('active');
+					});
+					this.classList.add('active');
+				});
+			});
+		</script>
+	</body>
 </html>
