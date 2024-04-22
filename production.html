@@ -76,7 +76,7 @@
 									Optiwise Pro
 								</a>
 							</li>
-							<li class="nav-item dropdown">
+							<!-- <li class="nav-item dropdown">
 								<a
 									class="nav-link dropdown-a"
 									href="#"
@@ -86,7 +86,7 @@
 								>
 									Optiwise AI
 								</a>
-							</li>
+							</li> -->
 							<li class="nav-item dropdown">
 								<a
 									class="nav-link dropdown-a"
@@ -99,7 +99,7 @@
 								</a>
 							</li>
 
-							<li class="nav-item dropdown">
+							<!-- <li class="nav-item dropdown">
 								<a
 									class="nav-link dropdown-a"
 									href="task-management.html"
@@ -109,7 +109,7 @@
 								>
 									Task Manager
 								</a>
-							</li>
+							</li> -->
 
 							<li class="nav-item dropdown">
 								<a
@@ -128,7 +128,7 @@
 								type="button"
 								class="btn a-tag"
 								data-bs-toggle="modal"
-								data-bs-target="#exampleModal"
+								data-bs-target="#bookDemoModal"
 							>
 								Book&nbsp;Free&nbsp;Demo
 							</button>
@@ -159,23 +159,17 @@
 							<form
 								class="row d-flex mt-4 align-items-center justify-content-center"
 							>
-								<div class="col-auto">
-									<label for="inputPassword2" class="visually-hidden"
-										>Enter your E-mail</label
-									>
-									<input
-										type="password"
-										class="form-control"
-										id="inputPassword2"
-										placeholder="Enter your E-mail"
-									/>
-								</div>
 								<div class="col-auto mt-4">
-									<button type="submit" class="btn btn-gradient banner-btn">
-										Get Started
-
-										<!--<svg xmlns="http://www.w3.org/2000/svg" width="26px" height="26px" viewBox="0 0 1024 1024"><path fill="white" d="M754.752 480H160a32 32 0 1 0 0 64h594.752L521.344 777.344a32 32 0 0 0 45.312 45.312l288-288a32 32 0 0 0 0-45.312l-288-288a32 32 0 1 0-45.312 45.312z"></path></svg>-->
-									</button>
+									<div class="gradient-btn mt-3" id="book-btn-nav">
+										<button
+											type="button"
+											class="btn a-tag"
+											data-bs-toggle="modal"
+											data-bs-target="#bookDemoModal"
+										>
+											Book&nbsp;Free&nbsp;Demo
+										</button>
+									</div>
 								</div>
 							</form>
 						</div>
@@ -3436,7 +3430,11 @@
 				>
 					Unify your team’s work with jira
 				</h2>
-				<button class="footer-btn">
+				<button
+					class="footer-btn"
+					data-bs-toggle="modal"
+					data-bs-target="#bookDemoModal"
+				>
 					<a class="footer-text"> Book Free Demo</a>
 				</button>
 				<img src="images/optiwise.png" class="optiwise" />
@@ -3599,10 +3597,11 @@
 							</ul>
 						</div>
 						<div class="col-md-6 footer-md-6">
-							<a href="#" class="text-white">About Us </a>
-							<a href="#" class="text-white">Features</a>
-							<a href="#" class="text-white">Industries</a>
-							<a href="#" class="text-white">Resources</a>
+							<a href="/optimize-pro.html" class="text-white">Optiwise Pro</a>
+							<a href="/kamaai-klub/kamaai-klub.html" class="text-white"
+								>Kamaai Klub</a
+							>
+							<a href="#" class="text-white">Production</a>
 						</div>
 						<div class="col-md-2 footer-md-2">
 							<a href="https://www.linkedin.com/company/ai-can-co-in/">
@@ -3617,6 +3616,103 @@
 				</div>
 			</div>
 		</section>
+
+		<div
+			class="modal fade"
+			id="bookDemoModal"
+			tabindex="-1"
+			aria-labelledby="bookDemoModalLabel"
+			aria-hidden="true"
+		>
+			<div class="modal-dialog modal-dialog-centered">
+				<form id="book-free-demo-form">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title modal-head" id="bookDemoModalLabel">
+								Book&nbsp;Free&nbsp;Demo
+							</h5>
+							<button
+								type="button"
+								class="btn-close"
+								data-bs-dismiss="modal"
+								aria-label="Close"
+							></button>
+						</div>
+						<div class="modal-body">
+							<div class="mb-3 row">
+								<label for="name" class="col-sm-6 col-form-label"
+									>Full Name</label
+								>
+								<div class="col-sm-6">
+									<input
+										type="text"
+										name="name"
+										class="form-control"
+										id="name"
+										required
+									/>
+								</div>
+							</div>
+
+							<div class="mb-3 row">
+								<label for="email" class="col-sm-6 col-form-label"
+									>Email ID</label
+								>
+								<div class="col-sm-6">
+									<input
+										type="email"
+										name="email"
+										class="form-control"
+										id="email"
+										required
+									/>
+								</div>
+							</div>
+
+							<div class="mb-3 row">
+								<label for="company" class="col-sm-6 col-form-label"
+									>Company Name</label
+								>
+								<div class="col-sm-6">
+									<input
+										type="text"
+										name="company"
+										class="form-control"
+										id="company"
+										required
+									/>
+								</div>
+							</div>
+
+							<div class="mb-3 row">
+								<label for="mobile" class="col-sm-6 col-form-label"
+									>Mobile Number</label
+								>
+								<div class="col-sm-6">
+									<input
+										type="text"
+										name="mobile"
+										class="form-control"
+										id="mobile"
+										pattern="[0-9]{10}"
+										maxlength="10"
+										title="Please enter a valid 10-digit phone number"
+										required
+									/>
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer text-center">
+							<div class="gradient-btn">
+								<button type="submit" name="submit" class="btn">
+									Save changes
+								</button>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
 
 		<!-- ----------------script code------------------ -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
