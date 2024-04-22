@@ -127,7 +127,7 @@
 								type="button"
 								class="btn a-tag"
 								data-bs-toggle="modal"
-								data-bs-target="#exampleModal"
+								data-bs-target="#bookDemoModal"
 							>
 								Book&nbsp;Free&nbsp;Demo
 							</button>
@@ -743,7 +743,13 @@
 							“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
 							vulputate libero et velit interdum, ac aliquet odio mattis.”
 						</p>
-						<button class="book-grey">Book A Free Demo</button>
+						<button
+							class="book-grey"
+							data-bs-toggle="modal"
+							data-bs-target="#bookDemoModal"
+						>
+							Book A Free Demo
+						</button>
 					</div>
 				</div>
 			</div>
@@ -863,7 +869,11 @@
 				data-aos-easing="ease-in-out"
 			>
 				<h2>Unify your team’s work with jira</h2>
-				<button class="footer-btn">
+				<button
+					class="footer-btn"
+					data-bs-toggle="modal"
+					data-bs-target="#bookDemoModal"
+				>
 					<a class="footer-text"> Book&nbsp;Free&nbsp;Demo</a>
 				</button>
 				<img src="images/optiwise.png" class="optiwise" />
@@ -1048,67 +1058,98 @@
 		<!-- Modal -->
 		<div
 			class="modal fade"
-			id="exampleModal"
+			id="bookDemoModal"
 			tabindex="-1"
-			aria-labelledby="exampleModalLabel"
+			aria-labelledby="bookDemoModalLabel"
 			aria-hidden="true"
 		>
 			<div class="modal-dialog modal-dialog-centered">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h5 class="modal-title modal-head" id="exampleModalLabel">
-							Book&nbsp;Free&nbsp;Demo
-						</h5>
-						<button
-							type="button"
-							class="btn-close"
-							data-bs-dismiss="modal"
-							aria-label="Close"
-						></button>
-					</div>
-					<div class="modal-body">
-						<div class="mb-3 row">
-							<label for="name" class="col-sm-6 col-form-label"
-								>Full Name</label
-							>
-							<div class="col-sm-6">
-								<input type="text" class="form-control" id="name" />
-							</div>
+				<form id="book-free-demo-form">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title modal-head" id="bookDemoModalLabel">
+								Book&nbsp;Free&nbsp;Demo
+							</h5>
+							<button
+								type="button"
+								class="btn-close"
+								data-bs-dismiss="modal"
+								aria-label="Close"
+							></button>
 						</div>
+						<div class="modal-body">
+							<div class="mb-3 row">
+								<label for="name" class="col-sm-6 col-form-label"
+									>Full Name</label
+								>
+								<div class="col-sm-6">
+									<input
+										type="text"
+										name="name"
+										class="form-control"
+										id="name"
+										required
+									/>
+								</div>
+							</div>
 
-						<div class="mb-3 row">
-							<label for="email" class="col-sm-6 col-form-label"
-								>Email ID</label
-							>
-							<div class="col-sm-6">
-								<input type="text" class="form-control" id="email" />
+							<div class="mb-3 row">
+								<label for="email" class="col-sm-6 col-form-label"
+									>Email ID</label
+								>
+								<div class="col-sm-6">
+									<input
+										type="email"
+										name="email"
+										class="form-control"
+										id="email"
+										required
+									/>
+								</div>
+							</div>
+
+							<div class="mb-3 row">
+								<label for="company" class="col-sm-6 col-form-label"
+									>Company Name</label
+								>
+								<div class="col-sm-6">
+									<input
+										type="text"
+										name="company"
+										class="form-control"
+										id="company"
+										required
+									/>
+								</div>
+							</div>
+
+							<div class="mb-3 row">
+								<label for="mobile" class="col-sm-6 col-form-label"
+									>Mobile Number</label
+								>
+								<div class="col-sm-6">
+									<input
+										type="text"
+										name="mobile"
+										class="form-control"
+										id="mobile"
+										pattern="[0-9]{10}"
+										maxlength="10"
+										title="Please enter a valid 10-digit phone number"
+										required
+									/>
+								</div>
 							</div>
 						</div>
-
-						<div class="mb-3 row">
-							<label for="company" class="col-sm-6 col-form-label"
-								>Company Name</label
-							>
-							<div class="col-sm-6">
-								<input type="text" class="form-control" id="company" />
-							</div>
-						</div>
-
-						<div class="mb-3 row">
-							<label for="mobile" class="col-sm-6 col-form-label"
-								>Mobile Number</label
-							>
-							<div class="col-sm-6">
-								<input type="text" class="form-control" id="mobile" />
+						<div class="modal-footer text-center">
+							<div class="gradient-btn">
+								<button type="submit" name="submit" class="btn">
+									Save changes
+								</button>
 							</div>
 						</div>
 					</div>
-					<div class="modal-footer text-center">
-						<div class="gradient-btn">
-							<button type="button" class="btn">Save changes</button>
-						</div>
-					</div>
-				</div>
+				</form>
 			</div>
 		</div>
 
