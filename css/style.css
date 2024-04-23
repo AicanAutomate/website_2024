@@ -1214,28 +1214,31 @@ video {
 	background-image: url(../images/footer.png);
 	background-repeat: no-repeat;
 	background-size: contain;
-	height: 500px;
 	width: 100%;
+	aspect-ratio: 1440/514;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	margin-bottom: 100px;
+	padding-top: 5%;
+	gap: clamp(10px, 2.5vw, 35px);
 }
+
 .kamaai-klub-footer h2 {
 	color: #ffffff;
-
 	font-weight: 600;
-	font-size: 40px;
-	margin-top: -40px;
+	font-size: clamp(12px, 3vw, 40px);
 }
+
 .footer-btn {
 	background-color: #ffffff;
 	border-radius: 8px;
 	width: 229px;
 	height: 48px;
 	border: 0px !important;
-	margin-top: 30px;
 }
+
 .footer-text {
 	background: linear-gradient(
 		180deg,
@@ -1851,19 +1854,6 @@ li {
 	.v-div::after {
 		width: 0;
 	}
-	.kamaai-klub-footer h2 {
-		margin-top: -200px;
-		font-size: 7px;
-		color: #fff;
-	}
-	.kamaai-klub-footer {
-		width: 100%;
-	}
-
-	.kamaai-klub-footer {
-		/*position : absolute;*/
-		height: 339px;
-	}
 
 	.footer-btn {
 		width: 110px;
@@ -2030,19 +2020,6 @@ li {
 
 	.v-div::after {
 		width: 0;
-	}
-	.kamaai-klub-footer h2 {
-		margin-top: -200px;
-		font-size: 7px;
-		color: #fff;
-	}
-	.kamaai-klub-footer {
-		width: 100%;
-	}
-
-	.kamaai-klub-footer {
-		/*position : absolute;*/
-		height: 339px;
 	}
 
 	.footer-btn {

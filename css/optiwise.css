@@ -1080,29 +1080,32 @@ video {
 .kamaai-klub-footer {
 	background-image: url(../images/footer.png);
 	background-repeat: no-repeat;
-	background-size: cover;
-	height: fit-content;
+	background-size: contain;
 	width: 100%;
+	aspect-ratio: 1440/514;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	margin-bottom: 100px;
+	padding-top: 5%;
+	gap: clamp(10px, 2.5vw, 35px);
 }
+
 .kamaai-klub-footer h2 {
 	color: #ffffff;
-
 	font-weight: 600;
-	font-size: 40px;
-	margin-top: 54px;
+	font-size: clamp(12px, 3vw, 40px);
 }
+
 .footer-btn {
 	background-color: #ffffff;
 	border-radius: 8px;
 	width: 229px;
 	height: 48px;
 	border: 0px !important;
-	margin-top: 30px;
 }
+
 .footer-text {
 	background: linear-gradient(
 		180deg,
@@ -1141,16 +1144,16 @@ video {
 	letter-spacing: 0;
 	margin-top: 20px;
 }
+
 .task-04div h2 {
 	font-size: 2.5rem;
 	letter-spacing: 0;
 	line-height: 1.2;
 	font-weight: 600;
-
 	color: #181d26;
 }
+
 .task-04div p {
-	/*color: #333840;*/
 	color: #565656;
 	font-weight: 400;
 	font-size: 1.125rem;
@@ -1164,6 +1167,31 @@ video {
 	border-radius: 5px;
 }
 
+@media (min-width: 768px) {
+	.task-04div {
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+		justify-content: center;
+	}
+
+	.task-04div h2 {
+		font-size: clamp(1rem, 2.5vw, 2.5rem);
+	}
+	.task-04div p {
+		font-size: clamp(0.75rem, 2.5vw, 1.125rem);
+	}
+}
+
+@media (max-width: 767px) {
+	.row-direction {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.img-div {
+		padding-top: 25px;
+	}
+}
 /* cssssss */
 
 .ProductFeatureCard.Card {
