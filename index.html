@@ -2842,10 +2842,28 @@
 				$(this).attr('data-position', index); // NB: .attr() instead of .data()
 			});
 
+			let width = window.innerWidth;
+
 			$owl.owlCarousel({
 				center: true,
 				loop: true,
-				items: 5,
+				items: window.innerWidth < 1000 ? 3 : 5,
+			});
+
+			console.log($owl);
+
+			window.addEventListener('resize', (e) => {
+				width = window.innerWidth;
+
+				if (width < 1000) {
+					$owl.owlCarousel({
+						center: true,
+						loop: true,
+						items: 3,
+					});
+				}
+
+				console.log(width);
 			});
 
 			$(document).on('click', '.owl-item>div', function () {
