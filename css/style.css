@@ -8,7 +8,6 @@ label {
 	color: red;
 }
 .dropdown-a {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	color: #212121 !important;
 	font-size: 15px;
@@ -40,7 +39,7 @@ label {
 }
 .gradient-btn button {
 	width: fit-content;
-	font-family: 'Open Sans', sans-serif;
+
 	font-weight: 700;
 	color: #ffffff;
 	font-size: 15px;
@@ -69,7 +68,7 @@ label {
 }
 .modal-head {
 	font-size: 35px;
-	font-family: 'Open Sans', sans-serif;
+
 	font-weight: 700;
 	letter-spacing: 0;
 	line-height: normal;
@@ -104,7 +103,7 @@ label {
 		rgb(89, 195, 201) 100%
 	);
 	background-clip: border-box;
-	font-family: 'Open Sans', sans-serif;
+
 	-webkit-background-clip: text !important;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -295,7 +294,7 @@ label {
 	text-fill-color: transparent;
 	color: transparent;
 	font-size: 64px;
-	font-family: 'Open Sans', sans-serif;
+
 	font-weight: 900;
 	letter-spacing: 0;
 	line-height: normal;
@@ -308,14 +307,13 @@ label {
 	-webkit-text-fill-color: transparent;
 	text-fill-color: transparent;
 	color: transparent;
-	font-size: 64px;
-	font-family: 'Open Sans', sans-serif;
+	font-size: clamp(32px, 2.5vw, 64px);
+
 	font-weight: 900;
 	letter-spacing: 0;
-	line-height: normal;
+	line-height: initial;
 }
 .banner-para {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	color: #555555;
 	font-size: 16px;
@@ -339,7 +337,7 @@ label {
 	/*  rgb(239, 168, 46) 100%*/
 	/*);*/
 	background-color: #ff795c !important;
-	font-family: 'Open Sans', sans-serif;
+
 	font-weight: 700;
 	color: #ffffff;
 	font-size: 16px;
@@ -393,7 +391,6 @@ label {
 
 /* Section 03 */
 .heading {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 900;
 	color: #000000;
 	font-size: 48px;
@@ -403,7 +400,6 @@ label {
 	white-space: nowrap;
 }
 .sec-12 p {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	/*color: #212121;*/
 	color: #565656;
@@ -460,7 +456,6 @@ label {
 }
 .tab-text {
 	font-weight: 700;
-	font-family: 'Open Sans', sans-serif;
 }
 
 /* Animation 5 */
@@ -705,7 +700,7 @@ video {
 	text-align: center;
 	letter-spacing: 0.5px;
 	color: #565656;
-	font-family: 'Open Sans', sans-serif;
+
 	background: #fdf3e2;
 	padding: 15px 25px;
 	border-radius: 50px;
@@ -728,7 +723,6 @@ video {
 	);
 }
 .linear-heading {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 900;
 	color: #ffffff;
 	font-size: 48px;
@@ -736,7 +730,6 @@ video {
 	line-height: normal;
 }
 .linear-p {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	color: #ffffff;
 	font-size: 16px;
@@ -763,7 +756,7 @@ video {
 }
 .parent-div h5 {
 	width: calc(100% - 55px);
-	font-family: 'Open Sans', sans-serif;
+
 	font-weight: 500;
 	color: #555555;
 	font-size: 18px;
@@ -784,7 +777,7 @@ video {
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	text-fill-color: transparent;
-	font-family: 'Open Sans', sans-serif;
+
 	font-weight: 500;
 	color: transparent;
 	font-size: 40px;
@@ -793,7 +786,6 @@ video {
 	text-align: center;
 }
 .sc-para {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	/*color: #000000;*/
 	color: #565656;
@@ -835,7 +827,6 @@ video {
 	width: 890px;
 }
 .owlc p {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	color: #212121;
 	font-size: 30px;
@@ -877,7 +868,6 @@ video {
 	right: 80px;
 }
 .owlc h6 {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 200;
 	color: #000000;
 	font-size: 24px;
@@ -970,7 +960,6 @@ video {
 	border-bottom: none !important;
 }
 .card-header .btn-link {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	color: #ffffff;
 	font-size: 20px;
@@ -1031,7 +1020,6 @@ video {
 
 /* Kamaai Klub */
 .kamaai-klub-h1 {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 	color: #000000;
 	font-size: 40px;
@@ -1039,7 +1027,6 @@ video {
 	line-height: 56px;
 }
 .kamaai-banner-section p {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	color: #000000;
 	font-size: 16px;
@@ -1101,7 +1088,6 @@ video {
 	padding-bottom: 50px;
 }
 .feat .container .row .col-md-12 h2 {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 	color: #000000;
 	letter-spacing: 0.5px;
@@ -1117,7 +1103,6 @@ video {
 	width: 80px;
 }
 .feat-div p {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 22px;
@@ -1147,7 +1132,7 @@ video {
 .kamaaiklub-div h2 {
 	font-size: 3.0625rem;
 	line-height: 3.375rem;
-	font-family: 'Open Sans', sans-serif;
+
 	font-weight: 600;
 	text-align: center;
 	position: relative;
@@ -1238,7 +1223,7 @@ video {
 }
 .kamaai-klub-footer h2 {
 	color: #ffffff;
-	font-family: 'Open Sans', sans-serif;
+
 	font-weight: 600;
 	font-size: 40px;
 	margin-top: -40px;
@@ -1257,7 +1242,7 @@ video {
 		rgb(255, 120.82, 92.07) 0%,
 		rgb(239, 168, 46) 100%
 	);
-	font-family: 'Open Sans', sans-serif;
+
 	font-weight: 700;
 	color: transparent;
 	font-size: 18px;
@@ -1268,7 +1253,7 @@ video {
 .optiwise {
 	width: 121px;
 	height: 33px;
-	margin-top: 70px;
+	margin-top: 15px;
 }
 
 /* ---------------------owl-navtab------------------------ */
@@ -1432,7 +1417,6 @@ li {
 	height: 26px;
 }
 .offset-div h2 {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 	color: #ffffff;
 	font-size: 64px;
@@ -1442,7 +1426,6 @@ li {
 }
 
 .offset-div p {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	color: #ffffff;
 	font-size: 20px;
@@ -1472,7 +1455,7 @@ li {
 	text-fill-color: transparent;
 	color: transparent;
 	font-size: 16px;
-	font-family: 'Open Sans', sans-serif;
+
 	font-weight: 900;
 	letter-spacing: 0;
 	line-height: normal;
@@ -1493,14 +1476,13 @@ li {
 	text-fill-color: transparent;
 	color: transparent;
 	font-size: 40px;
-	font-family: 'Open Sans', sans-serif;
+
 	font-weight: 600;
 	letter-spacing: 0;
 	line-height: normal;
 }
 
 .half-footer-p {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	color: #565656;
 	/*color: #000;*/
@@ -1539,7 +1521,7 @@ li {
 }
 .gradient-btn1 a {
 	width: fit-content;
-	font-family: 'Open Sans', sans-serif;
+
 	font-weight: 700;
 	color: #ffffff;
 	font-size: 18px;
@@ -1720,7 +1702,7 @@ li {
 	text-fill-color: transparent;
 	color: transparent;
 	font-size: 20px;
-	font-family: 'Open Sans', sans-serif;
+
 	font-weight: bold;
 	letter-spacing: 0;
 	line-height: normal;
@@ -2150,7 +2132,7 @@ li {
 	margin-bottom: 0;
 	font-size: inherit;
 	line-height: 1.5;
-	font-family: 'Open Sans', sans-serif;
+
 	font-weight: 600;
 }
 

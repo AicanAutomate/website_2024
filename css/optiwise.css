@@ -1,7 +1,6 @@
 @import './variables.css';
 
 .dropdown-a {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	color: #212121 !important;
 	font-size: 15px;
@@ -26,7 +25,7 @@
 }
 .gradient-btn a {
 	width: fit-content;
-	font-family: 'Open Sans', sans-serif;
+
 	font-weight: bold;
 	color: #ffffff;
 	font-size: 15px;
@@ -42,7 +41,7 @@
 		rgb(89, 195, 201) 100%
 	);
 	background-clip: border-box;
-	font-family: 'Open Sans', sans-serif;
+
 	-webkit-background-clip: text !important;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -230,7 +229,7 @@
 	text-fill-color: transparent;
 	color: transparent;
 	font-size: 64px;
-	font-family: 'Open Sans', sans-serif;
+
 	font-weight: 900;
 	letter-spacing: 0;
 	line-height: normal;
@@ -244,13 +243,12 @@
 	text-fill-color: transparent;
 	color: transparent;
 	font-size: 64px;
-	font-family: 'Open Sans', sans-serif;
+
 	font-weight: 900;
 	letter-spacing: 0;
 	line-height: normal;
 }
 .banner-para {
-	font-family: 'Open Sans', sans-serif, Helvetica;
 	font-weight: 400;
 	color: #555555;
 	font-size: 20px;
@@ -273,7 +271,7 @@
 		rgb(255, 120.82, 92.07) 0%,
 		rgb(239, 168, 46) 100%
 	);
-	font-family: 'Open Sans', sans-serif;
+
 	font-weight: 700;
 	color: #ffffff;
 	font-size: 24px;
@@ -325,7 +323,6 @@
 
 /* Section 03 */
 .heading {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	color: #000000;
 	font-size: 40px;
@@ -335,7 +332,6 @@
 	white-space: nowrap;
 }
 .sec-12 p {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	color: #212121;
 	font-size: 16px;
@@ -591,7 +587,7 @@ video {
 	text-align: center;
 	letter-spacing: 0.5px;
 	color: #565656;
-	font-family: 'Open Sans', sans-serif;
+
 	background: #fdf3e2;
 	padding: 15px 25px;
 	border-radius: 50px;
@@ -614,7 +610,6 @@ video {
 	);
 }
 .linear-heading {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 900;
 	color: #ffffff;
 	font-size: 48px;
@@ -622,7 +617,6 @@ video {
 	line-height: normal;
 }
 .linear-p {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	color: #ffffff;
 	font-size: 16px;
@@ -644,7 +638,7 @@ video {
 }
 .parent-div h5 {
 	width: calc(100% - 55px);
-	font-family: 'Open Sans', sans-serif;
+
 	font-weight: 500;
 	color: #555555;
 	font-size: 18px;
@@ -664,7 +658,7 @@ video {
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	text-fill-color: transparent;
-	font-family: 'Open Sans', sans-serif;
+
 	font-weight: 500;
 	color: transparent;
 	font-size: 40px;
@@ -673,7 +667,6 @@ video {
 	text-align: center;
 }
 .sc-para {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	color: #000000;
 	font-size: 20px;
@@ -714,7 +707,6 @@ video {
 	width: 890px;
 }
 .owlc p {
-	font-family: 'Open Sans', sans-serif, Helvetica;
 	font-weight: 400;
 	color: #212121;
 	font-size: 30px;
@@ -756,7 +748,6 @@ video {
 	right: 80px;
 }
 .owlc h6 {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 200;
 	color: #000000;
 	font-size: 24px;
@@ -849,7 +840,6 @@ video {
 	border-bottom: none !important;
 }
 .card-header .btn-link {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	color: #ffffff;
 	font-size: 20px;
@@ -895,7 +885,6 @@ video {
 	white-space: nowrap;
 }
 .sub-header h6 {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 	color: #555555;
 	font-size: 11px;
@@ -915,7 +904,6 @@ video {
 	margin: auto;
 }
 .sub-header h2 {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	font-size: 40px;
 	color: #000000;
@@ -925,7 +913,6 @@ video {
 	text-align: center;
 }
 .sub-header p {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 	font-size: 16px;
 	color: #565656;
@@ -976,7 +963,6 @@ video {
 }
 
 .sub-header1 h6 {
-	font-family: 'Open Sans' sans-serif;
 	font-weight: 600;
 	color: #555555;
 	font-size: 12px;
@@ -994,7 +980,6 @@ video {
 	width: fit-content;
 }
 .sub-header1 h2 {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 	font-size: 36px;
 	color: #000000;
@@ -1002,14 +987,12 @@ video {
 	line-height: 56px;
 }
 .sub-header1 p {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 	font-size: 16px;
 	color: #000000;
 	letter-spacing: 0.5px;
 }
 .optiwise-sec03 .container .row .col-md-5 p {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 	font-size: 18px;
 	color: #565656;
@@ -1019,7 +1002,7 @@ video {
 	border-radius: 8px;
 	background-color: #ff795c;
 	border: 0px !important;
-	font-family: 'Open Sans', sans-serif;
+
 	font-weight: 700;
 	color: #fffafa;
 	font-size: 16px;
@@ -1034,13 +1017,12 @@ video {
 }
 .sec05-div h2 {
 	font-size: 3.125rem;
-	font-family: 'Open Sans', sans-serif;
+
 	font-weight: 600;
 	color: #000000;
 	letter-spacing: 0;
 }
 .sec05-div p {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	font-size: 16px;
 	color: #565656;
@@ -1056,7 +1038,6 @@ video {
 	border-radius: 5px;
 	letter-spacing: 1px;
 	font-weight: 600;
-	font-family: 'Open Sans', sans-serif;
 }
 .btn2 {
 	border: 1px solid #ff795c;
@@ -1066,7 +1047,7 @@ video {
 	border-radius: 5px;
 	letter-spacing: 1px;
 	font-weight: 600;
-	font-family: 'Open Sans', sans-serif;
+
 	color: #ff795c;
 }
 .btn-div {
@@ -1085,12 +1066,11 @@ video {
 	/*color: #611f69;*/
 	color: #ff795c;
 	font-weight: 600;
-	font-family: 'Open Sans', sans-serif;
 }
 .optiwise-stats .row .col-md-4 p,
 .optiwise-stats .row .col-md-3 p {
 	font-size: 15px;
-	font-family: 'Open Sans', sans-serif;
+
 	color: #565656;
 }
 .mb-5 {
@@ -1101,7 +1081,7 @@ video {
 	background-image: url(../images/footer.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 400px;
+	height: fit-content;
 	width: 100%;
 	display: flex;
 	align-items: center;
@@ -1110,7 +1090,7 @@ video {
 }
 .kamaai-klub-footer h2 {
 	color: #ffffff;
-	font-family: 'Open Sans', sans-serif;
+
 	font-weight: 600;
 	font-size: 40px;
 	margin-top: 54px;
@@ -1129,7 +1109,7 @@ video {
 		rgb(255, 120.82, 92.07) 0%,
 		rgb(239, 168, 46) 100%
 	);
-	font-family: 'Open Sans', sans-serif;
+
 	font-weight: 700;
 	color: transparent;
 	font-size: 18px;
@@ -1140,11 +1120,10 @@ video {
 .optiwise {
 	width: 121px;
 	height: 33px;
-	margin-top: 70px;
+	/* margin-top: 70px; */
 }
 
 .task03 {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	color: #000000;
 	font-size: 40px;
@@ -1154,7 +1133,6 @@ video {
 	white-space: nowrap;
 }
 .task03p {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 	color: #565656;
 	font-size: 16px;
@@ -1168,7 +1146,7 @@ video {
 	letter-spacing: 0;
 	line-height: 1.2;
 	font-weight: 600;
-	font-family: 'Open Sans', sans-serif;
+
 	color: #181d26;
 }
 .task-04div p {
@@ -1178,7 +1156,7 @@ video {
 	font-size: 1.125rem;
 	letter-spacing: 0.01em;
 	line-height: 1.35;
-	font-family: 'Open Sans', sans-serif;
+
 	margin-top: 25px;
 }
 .task-04img {
@@ -1438,7 +1416,6 @@ video {
 	text-align: left !important;
 }
 .Copy__header {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	color: #0a2540;
 	font-size: 30px;
@@ -1449,7 +1426,7 @@ video {
 }
 .Copy__body {
 	color: #425466;
-	font-family: 'Open Sans', sans-serif;
+
 	font-size: 18px;
 	letter-spacing: 0.5px;
 }
@@ -1471,7 +1448,7 @@ video {
 }
 .gradient-btn1 a {
 	width: fit-content;
-	font-family: 'Open Sans', sans-serif;
+
 	font-weight: 700;
 	color: #ffffff;
 	font-size: 18px;
@@ -1687,7 +1664,7 @@ images img {
 }
 .gradient-btn button {
 	width: fit-content;
-	font-family: 'Open Sans', sans-serif;
+
 	font-weight: 700;
 	color: #ffffff;
 	font-size: 15px;
@@ -1707,7 +1684,7 @@ images img {
 	text-fill-color: transparent;
 	color: transparent;
 	font-size: 40px;
-	font-family: 'Open Sans', sans-serif;
+
 	font-weight: 900;
 	letter-spacing: 0;
 	line-height: normal;

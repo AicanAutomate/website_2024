@@ -1,7 +1,6 @@
 @import './variables.css';
 
 .dropdown-a {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	color: #212121 !important;
 	font-size: 16px;
@@ -22,7 +21,7 @@
 }
 .gradient-btn a {
 	width: fit-content;
-	font-family: 'Open Sans', sans-serif;
+
 	font-weight: 700;
 	color: #ffffff;
 	font-size: 16px;
@@ -38,7 +37,7 @@
 		rgb(89, 195, 201) 100%
 	);
 	background-clip: border-box;
-	font-family: 'Open Sans', sans-serif;
+
 	-webkit-background-clip: text !important;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -134,7 +133,6 @@
 	border-bottom: none !important;
 }
 .card-header .btn-link {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	color: #000000;
 	font-size: 20px;
@@ -173,7 +171,6 @@
 
 /* Kamaai Klub */
 .kamaai-klub-h1 {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 	color: #000000;
 	font-size: 40px;
@@ -181,7 +178,6 @@
 	line-height: 56px;
 }
 .kamaai-banner-section p {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	color: #000000;
 	font-size: 16px;
@@ -243,7 +239,6 @@
 	padding-bottom: 50px;
 }
 .feat .container .row .col-md-12 h2 {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 	color: #000000;
 	letter-spacing: 0.5px;
@@ -259,7 +254,6 @@
 	width: 80px;
 }
 .feat-div p {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 22px;
@@ -289,7 +283,7 @@
 .kamaaiklub-div h2 {
 	font-size: 3.0625rem;
 	line-height: 3.375rem;
-	font-family: 'Open Sans', sans-serif;
+
 	font-weight: 600;
 	text-align: center;
 	position: relative;
@@ -380,7 +374,7 @@
 }
 .kamaai-klub-footer h2 {
 	color: #ffffff;
-	font-family: 'Open Sans', sans-serif;
+
 	font-weight: 600;
 	font-size: 40px;
 	margin-top: 180px;
@@ -399,7 +393,7 @@
 		rgb(255, 120.82, 92.07) 0%,
 		rgb(239, 168, 46) 100%
 	);
-	font-family: 'Open Sans', sans-serif;
+
 	font-weight: 700;
 	color: transparent;
 	font-size: 18px;
@@ -414,7 +408,6 @@
 }
 
 .task03 {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	color: #000000;
 	font-size: 40px;
@@ -424,7 +417,6 @@
 	white-space: nowrap;
 }
 .task03p {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 	color: #212121;
 	font-size: 16px;
@@ -438,7 +430,7 @@
 	letter-spacing: 0;
 	line-height: 1.2;
 	font-weight: 600;
-	font-family: 'Open Sans', sans-serif;
+
 	color: #181d26;
 }
 
@@ -448,7 +440,7 @@
 	font-size: 1.125rem;
 	letter-spacing: 0.01em;
 	line-height: 1.35;
-	font-family: 'Open Sans', sans-serif;
+
 	margin-top: 25px;
 }
 .task-04img {

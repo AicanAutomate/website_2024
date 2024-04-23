@@ -7,7 +7,6 @@
 	padding-bottom: 150px;
 }
 .dropdown-a {
-	font-family: 'Helvetica Neue-Bold', Helvetica;
 	font-weight: 700;
 	color: #212121 !important;
 	font-size: 16px;
@@ -38,7 +37,7 @@
 }
 .gradient-btn a {
 	width: fit-content;
-	font-family: 'Helvetica Neue-Bold', Helvetica;
+
 	font-weight: 700;
 	color: #ffffff;
 	font-size: 16px;
@@ -54,7 +53,7 @@
 		rgb(89, 195, 201) 100%
 	);
 	background-clip: border-box;
-	font-family: 'Helvetica Neue-Bold', Helvetica;
+
 	-webkit-background-clip: text !important;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -245,7 +244,7 @@
 	text-fill-color: transparent;
 	color: transparent;
 	font-size: 64px;
-	font-family: 'Axiforma-Black', Helvetica;
+
 	font-weight: 900;
 	letter-spacing: 0;
 	line-height: normal;
@@ -259,13 +258,12 @@
 	text-fill-color: transparent;
 	color: transparent;
 	font-size: 64px;
-	font-family: 'Axiforma-Black', Helvetica;
+
 	font-weight: 900;
 	letter-spacing: 0;
 	line-height: normal;
 }
 .banner-para {
-	font-family: 'Helvetica Neue-Regular', Helvetica;
 	font-weight: 400;
 	color: #555555;
 	font-size: 20px;
@@ -288,7 +286,7 @@
 		rgb(255, 120.82, 92.07) 0%,
 		rgb(239, 168, 46) 100%
 	);
-	font-family: 'Axiforma-Bold', Helvetica;
+
 	font-weight: 700;
 	color: #ffffff;
 	font-size: 24px;
@@ -340,7 +338,6 @@
 
 /* Section 03 */
 .heading {
-	font-family: 'Axiforma-Bold', Helvetica;
 	font-weight: 700;
 	color: #000000;
 	font-size: 40px;
@@ -350,7 +347,6 @@
 	white-space: nowrap;
 }
 .sec-12 p {
-	font-family: 'Poppins-Regular', Helvetica;
 	font-weight: 400;
 	color: #212121;
 	font-size: 16px;
@@ -406,7 +402,6 @@
 }
 .tab-text {
 	font-weight: 700;
-	font-family: roboto, sans-serif;
 }
 
 /* Animation 5 */
@@ -650,7 +645,7 @@ video {
 	text-align: center;
 	letter-spacing: 0.5px;
 	color: #565656;
-	font-family: 'Axiforma-Bold', Helvetica;
+
 	background: #fdf3e2;
 	padding: 15px 25px;
 	border-radius: 50px;
@@ -673,7 +668,6 @@ video {
 	);
 }
 .linear-heading {
-	font-family: 'Axiforma-Black', Helvetica;
 	font-weight: 900;
 	color: #ffffff;
 	font-size: 48px;
@@ -681,7 +675,6 @@ video {
 	line-height: normal;
 }
 .linear-p {
-	font-family: 'Axiforma-Medium', Helvetica;
 	font-weight: 500;
 	color: #ffffff;
 	font-size: 16px;
@@ -703,7 +696,7 @@ video {
 }
 .parent-div h5 {
 	width: calc(100% - 55px);
-	font-family: 'Axiforma-Medium', Helvetica;
+
 	font-weight: 500;
 	color: #555555;
 	font-size: 18px;
@@ -723,7 +716,7 @@ video {
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	text-fill-color: transparent;
-	font-family: 'Helvetica Neue-Medium', Helvetica;
+
 	font-weight: 500;
 	color: transparent;
 	font-size: 40px;
@@ -732,7 +725,6 @@ video {
 	text-align: center;
 }
 .sc-para {
-	font-family: 'Helvetica Neue-Medium', Helvetica;
 	font-weight: 500;
 	color: #000000;
 	font-size: 20px;
@@ -773,7 +765,6 @@ video {
 	width: 890px;
 }
 .owlc p {
-	font-family: 'Helvetica Neue-Regular', Helvetica;
 	font-weight: 400;
 	color: #212121;
 	font-size: 30px;
@@ -815,7 +806,6 @@ video {
 	right: 80px;
 }
 .owlc h6 {
-	font-family: 'Helvetica Neue-Light', Helvetica;
 	font-weight: 200;
 	color: #000000;
 	font-size: 24px;
@@ -908,7 +898,6 @@ video {
 	border-bottom: none !important;
 }
 .card-header .btn-link {
-	font-family: 'Axiforma-Bold', Helvetica;
 	font-weight: 700;
 	color: #ffffff;
 	font-size: 20px;
@@ -947,7 +936,6 @@ video {
 
 /* Kamaai Klub */
 .kamaai-klub-h1 {
-	font-family: 'Axiforma-SemiBold', Helvetica;
 	font-weight: 600;
 	color: #000000;
 	font-size: 40px;
@@ -955,7 +943,6 @@ video {
 	line-height: 56px;
 }
 .kamaai-banner-section p {
-	font-family: 'Axiforma-Medium', Helvetica;
 	font-weight: 500;
 	color: #000000;
 	font-size: 16px;
@@ -1017,7 +1004,6 @@ video {
 	padding-bottom: 50px;
 }
 .feat .container .row .col-md-12 h2 {
-	font-family: 'Axiforma-SemiBold', Helvetica;
 	font-weight: 600;
 	color: #000000;
 	letter-spacing: 0.5px;
@@ -1033,7 +1019,6 @@ video {
 	width: 80px;
 }
 .feat-div p {
-	font-family: 'Axiforma-Medium', Helvetica;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 22px;
@@ -1063,7 +1048,7 @@ video {
 .kamaaiklub-div h2 {
 	font-size: 3.0625rem;
 	line-height: 3.375rem;
-	font-family: 'Axiforma-Medium', Helvetica;
+
 	font-weight: 600;
 	text-align: center;
 	position: relative;
@@ -1154,7 +1139,7 @@ video {
 }
 .kamaai-klub-footer h2 {
 	color: #ffffff;
-	font-family: 'Axiforma-Medium', Helvetica;
+
 	font-weight: 600;
 	font-size: 40px;
 	margin-top: 180px;
@@ -1173,7 +1158,7 @@ video {
 		rgb(255, 120.82, 92.07) 0%,
 		rgb(239, 168, 46) 100%
 	);
-	font-family: 'Axiforma-Bold', Helvetica;
+
 	font-weight: 700;
 	color: transparent;
 	font-size: 18px;
@@ -1185,4 +1170,11 @@ video {
 	width: 121px;
 	height: 33px;
 	margin-top: 70px;
+}
+
+.collapse {
+	height: fit-content !important;
+}
+.collapse.show {
+	height: 100% !important;
 }

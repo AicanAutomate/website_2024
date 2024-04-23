@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'Axiforma';
+	src: url('/Kastelov\ Axiforma\ Bold.otf') format('opentype');
+}
+
+* {
+	font-family: 'Axiforma';
+}

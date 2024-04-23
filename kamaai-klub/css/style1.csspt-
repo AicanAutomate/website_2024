@@ -1,7 +1,7 @@
 @import "./variables.css";
 
 .dropdown-a {
-  font-family: "Helvetica Neue-Bold", Helvetica;
+  
   font-weight: 700;
   color: #ffffff ;
   font-size: 16px;
@@ -39,7 +39,7 @@
 
 .gradient-btn a {
   width: fit-content;
-  font-family: "Helvetica Neue-Bold", Helvetica;
+  
   font-weight: 700;
   color: #ffffff;
   font-size: 16px !important;
@@ -56,7 +56,7 @@
     rgb(89, 195, 201) 100%
   );
   background-clip: border-box;
-  font-family: "Helvetica Neue-Bold", Helvetica;
+  
   -webkit-background-clip: text !important;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -173,7 +173,7 @@
 }
 
 .card-header .btn-link {
-  font-family: "Axiforma-Bold", Helvetica;
+  
   font-weight: 700;
   color: #000000;
   font-size: 20px;
@@ -215,7 +215,7 @@
 
 /* Kamaai Klub */
 .kamaai-klub-h1 {
-  font-family: "Axiforma-SemiBold", Helvetica;
+  
   font-weight: 600;
   color: #000000;
   font-size: 40px;
@@ -224,7 +224,7 @@
 }
 
 .kamaai-banner-section p {
-  font-family: "Axiforma-Medium", Helvetica;
+  
   font-weight: 500;
   color: #000000;
   font-size: 16px;
@@ -297,7 +297,7 @@
 }
 
 .feat .container .row .col-md-12 h2 {
-  font-family: "Axiforma-SemiBold", Helvetica;
+  
   font-weight: 600;
   color: #000000;
   letter-spacing: 0.5px;
@@ -316,7 +316,7 @@
 }
 
 .feat-div p {
-  font-family: "Axiforma-Medium", Helvetica;
+  
   font-weight: 500;
   font-size: 16px;
   line-height: 22px;
@@ -350,7 +350,7 @@
 .kamaaiklub-div h2 {
   font-size: 3.0625rem;
   line-height: 3.375rem;
-  font-family: "Axiforma-Medium", Helvetica;
+  
   font-weight: 600;
   text-align: center;
   position: relative;
@@ -448,7 +448,7 @@
 
 .kamaai-klub-footer h2 {
   color: #ffffff;
-  font-family: "Axiforma-Medium", Helvetica;
+  
   font-weight: 600;
   font-size: 40px;
   margin-top: -16px;
@@ -469,7 +469,7 @@
     rgb(255, 120.82, 92.07) 0%,
     rgb(239, 168, 46) 100%
   );
-  font-family: "Axiforma-Bold", Helvetica;
+  
   font-weight: 700;
   color: transparent;
   font-size: 18px;
@@ -486,7 +486,7 @@
 
 /* -----------------------accordion--------------- */
 .sec-h2 {
-  font-family: "Helvetica Neue-Bold", Helvetica;
+  
   color: rgb(0, 27, 56) !important;
   font-size: 32px !important;
   line-height: 2.375rem;
@@ -500,7 +500,7 @@
 }
 
 .card-header {
-  font-family: "Axiforma-Medium", Helvetica;
+  
   padding: 0 !important;
 }
 
@@ -560,7 +560,7 @@
 }
 
 .card-header .btn-link {
-  font-family: "Axiforma-Bold", Helvetica;
+  
   font-weight: 600;
   color: rgb(0, 27, 56) !important;
   text-align: center;
@@ -677,7 +677,7 @@
 }
 
 .task03{
-  font-family: "Axiforma-Bold", Helvetica;
+  
     font-weight: 700;
     color: #000000;
     font-size: 40px;
@@ -687,7 +687,7 @@
     white-space: nowrap;
 }
 .task03p{
-  font-family: "Poppins-Regular", Helvetica;
+  
   font-weight: 600;
   color: #212121;
   font-size: 16px;
@@ -701,7 +701,7 @@
     letter-spacing: 0;
     line-height: 1.2;
     font-weight: 600;
-    font-family: "Axiforma-Bold", Helvetica;
+    
     color: #181d26;
 }
 
@@ -711,7 +711,7 @@
   font-size: 1.125rem;
     letter-spacing: .01em;
     line-height: 1.35;
-    font-family: "Axiforma-Bold", Helvetica;
+    
     margin-top: 25px;
 }
 .task-04img{
@@ -747,7 +747,7 @@
 }
 .gradient-btn1 a {
   width: fit-content;
-  font-family: "Helvetica Neue-Bold", Helvetica;
+  
   font-weight: 700;
   color: #ffffff;
   font-size: 18px;
